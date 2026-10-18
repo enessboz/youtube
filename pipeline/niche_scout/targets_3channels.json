@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {"slug": "tarih-fr", "niche": "Antik tarih ve imparatorluklar", "lang": "fr", "region": "FR",
+     "queries": ["histoire de rome documentaire", "empire byzantin documentaire", "egypte ancienne documentaire", "grece antique histoire documentaire"]},
+    {"slug": "doga-de", "niche": "Doğa, kuşlar, hayvanlar", "lang": "de", "region": "DE",
+     "queries": ["vögel beobachten dokumentation", "tiere im wald dokumentation", "heimische gartenvögel arten", "natur dokumentation deutschland"]},
+    {"slug": "yemek-es", "niche": "Nine yemekleri ve geleneksel tarifler", "lang": "es", "region": "MX",
+     "queries": ["recetas de la abuela tradicionales", "comida tradicional mexicana receta casera", "guisos de antes receta", "cocina casera receta sencilla"]}
+  ]
+}

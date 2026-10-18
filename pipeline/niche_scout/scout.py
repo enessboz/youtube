@@ -56,7 +56,7 @@ class Client:
                 data = json.load(r)
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", "replace")
-            if e.code == 403 and "quota" in body.lower():
+            if e.code in (403, 429) and "quota" in body.lower():
                 raise QuotaError("Günlük YouTube API kotası doldu; yarın devam edin (önbellek korunur).")
             raise RuntimeError(f"YouTube API hatası {e.code}: {body[:300]}")
         self.spent += COST[path]
@@ -84,7 +84,7 @@ def chunks(seq, n):
 
 def collect(client, queries, region, lang, days):
     """Bir niş x ülke için video satırları döndürür."""
-    after = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    after = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)).strftime("%Y-%m-%dT00:00:00Z")  # gün hassasiyeti: önbellek aynı gün tutar
     video_ids = []
     for q in queries:
         res = client.get("search", {
