@@ -20,6 +20,8 @@ export type NameCardScene = SceneBase & {
   job: string;
   body: string;
   region?: string;
+  image?: string; // assets/ altındaki gravür/fotoğraf
+  image_caption?: string;
 };
 
 export type PhotoScene = SceneBase & {

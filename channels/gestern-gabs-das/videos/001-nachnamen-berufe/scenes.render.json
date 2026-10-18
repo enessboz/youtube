@@ -1,0 +1,12 @@
+{
+  "fps": 30,
+  "note": "Look-dev örneği (sessiz, metinler taslak). Gerçek süreler ses gelince yeniden hizalanır.",
+  "scenes": [
+    {"id": "s01", "type": "title", "duration_s": 4, "kicker": "Gestern gab's das · Muster", "title": "Nachnamen, die einen Beruf verraten", "subtitle": "Müller, Schmidt, Wagner & Co."},
+    {"id": "s02", "type": "namecard", "duration_s": 6, "number": "1/13", "name": "Müller", "variants": ["Möller", "Miller"], "job": "Müller (Mühlenbetreiber)", "body": "Er mahlte Getreide in der Wasser- oder Windmühle.", "region": "Miller: vor allem Schwaben", "image": "assets/mueller.jpg", "image_caption": "Ständebuch 1568 · gemeinfrei"},
+    {"id": "s03", "type": "namecard", "duration_s": 6, "number": "2/13", "name": "Schmidt", "variants": ["Schmitt", "Schmid", "Schmitz"], "job": "Schmied (Metallhandwerker)", "body": "Er formte glühendes Eisen in der Esse.", "image": "assets/schmied.jpg", "image_caption": "Ständebuch 1568 · gemeinfrei"},
+    {"id": "s04", "type": "namecard", "duration_s": 6, "number": "3/13", "name": "Schneider", "variants": ["Schröder (Norden)"], "job": "Schneider (Kleidermacher)", "body": "Er schnitt Tuch zu und nähte Kleidung.", "image": "assets/schneider.jpg", "image_caption": "Ständebuch 1568 · gemeinfrei"},
+    {"id": "s05", "type": "namecard", "duration_s": 6, "number": "4/13", "name": "Fischer", "job": "Fischer (Fischfang)", "body": "Er fing Fische mit Reuse und Netz.", "image": "assets/fischer.jpg", "image_caption": "Ständebuch 1568 · gemeinfrei"},
+    {"id": "s06", "type": "title", "duration_s": 4, "title": "Welcher Name steckt in deiner Familie?", "subtitle": "Schreib es in die Kommentare."}
+  ]
+}
