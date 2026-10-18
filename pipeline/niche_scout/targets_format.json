@@ -1,0 +1,12 @@
+{"targets": [
+ {"slug":"es-baz","niche":"Kaybolan şeyler nostalji (karşılaştırma)","lang":"es","region":"ES",
+  "queries":["25 comidas olvidadas de antes que ya nadie prepara","cosas de antes que han desaparecido España"]},
+ {"slug":"de","niche":"Kaybolan şeyler nostalji","lang":"de","region":"DE",
+  "queries":["vergessene Gerichte wie früher bei Oma","25 Dinge von früher die es nicht mehr gibt","vergessene Alltagsgegenstände aus der Kindheit"]},
+ {"slug":"it","niche":"Kaybolan şeyler nostalji","lang":"it","region":"IT",
+  "queries":["piatti dimenticati di una volta","25 oggetti di una volta che non esistono più","cose di una volta scomparse anni 60 70"]},
+ {"slug":"fr","niche":"Kaybolan şeyler nostalji","lang":"fr","region":"FR",
+  "queries":["plats oubliés d'autrefois","25 objets du quotidien disparus","métiers disparus d'autrefois"]},
+ {"slug":"pt","niche":"Kaybolan şeyler nostalji","lang":"pt","region":"BR",
+  "queries":["comidas esquecidas de antigamente","25 coisas de antigamente que desapareceram"]}
+]}
