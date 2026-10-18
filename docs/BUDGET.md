@@ -28,6 +28,26 @@ Kullanım başına oran sayfada: v2/v3 **$0,08 / 1.000 karakter**, Flash **$0,04
 
 **Öneri:** ilk ay Creator (ses seçimi + 2-3 test videosu), kanallar 6 video/hafta temposuna gelince Pro.
 
+## Ses alternatifleri (ucuz seçenekler) — aylık ≈ 810K karakter için
+Doğrulanmış = resmi sayfada gördüm; doğrulanmadı = hafızamdan veya üçüncü taraf kaynaktan.
+
+| Sağlayıcı | Oran | Aylık ≈ | Durum | Not |
+|---|---|---|---|---|
+| ElevenLabs Pro | $99 sabit (1,238M karakter) | $99 | doğrulandı | Voice Design ile **kanala özel, benzersiz ses**; en pahalı |
+| ElevenLabs Flash (kullanım) | $0,04 / 1K | ≈ $32 | doğrulandı | Yarı fiyat, daha az doğal; plan fiyatı değil kullanım oranı |
+| OpenAI `tts-1` | $15 / 1M karakter | ≈ $12 | doğrulandı (resmi sayfa) | Ucuz; **paylaşılan hazır sesler** (benzersiz değil) |
+| OpenAI `tts-1-hd` | $30 / 1M karakter | ≈ $24 | doğrulandı | Aynı sesler, daha kaliteli |
+| OpenAI `gpt-4o-mini-tts` | ses çıktısı $12 / 1M token (dakika karşılığı sayfada yok) | ≈ ? | kısmen | Tonu/aksanı talimatla yönlendirilebilir; token→dakika dönüşümünü test et |
+| Azure Neural TTS | aylık 0,5M karakter ücretsiz; ücretli oran bu oturumda okunamadı | ≈ $5-15 | doğrulanmadı | Almanca/İtalyanca nöral sesler çok; sesler yaygın |
+| Google Cloud TTS | Standard ≈ $4, Neural2 ≈ $16, Chirp 3 HD ≈ $30 / 1M | ≈ $3-24 | doğrulanmadı | Sayfa okunamadı; de-DE/it-IT desteğini doğrula |
+| Cartesia | kredi bazlı (Startup $49, 1,25M kredi) | ≈ $49 | kısmen | Kredi→karakter dönüşümü belirsiz |
+
+**Dengesi:** Ucuz seçeneklerde (OpenAI, Azure, Google) sesler çoğunlukla başkalarının da kullandığı hazır sesler; planın "yaygın hazır sesten kaçın" kuralıyla çelişir (toplu üretim işareti). ElevenLabs'in farkı Voice Design ile benzersiz ses. Bunun izleyici tutmasına etkisini **bilmiyoruz**.
+
+**Karar yöntemi (maliyeti < $5):** Aynı 60 sn'lik Almanca ve İtalyanca örneği 4 motorla üret (ElevenLabs Creator ayı, OpenAI `tts-1-hd` ve `gpt-4o-mini-tts`, Azure veya Google), anadili konuşan (mümkünse 55+) birine kör dinlet. Ucuz seçenek yeterliyse onu seç. ElevenLabs'te maliyeti düşüren yollar: Flash, retake payını azaltmak, ilk ay Creator.
+
+**Perspektif:** 2 kanal × 20 video test fazı ≈ 40 video ≈ 1,24M karakter ≈ **tek Pro ayı ($99)**. Yani ElevenLabs'in tüm test fazı maliyeti yaklaşık $100-130; kill edersek kayıp bu.
+
 ## Diğer kalemler — varsayım (henüz sağlayıcı seçilmedi)
 | Kalem | Haftalık tahmin | Dayanak |
 |---|---|---|
