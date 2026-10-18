@@ -1,0 +1,22 @@
+[
+  {"niche": "Historia antigua (Roma, Grecia, Egipto)", "queries": ["historia de roma documental", "egipto antiguo documental"]},
+  {"niche": "Historia militar y batallas", "queries": ["batallas históricas documental", "historia militar explicada"]},
+  {"niche": "Civilizaciones precolombinas", "queries": ["imperio azteca documental", "imperio inca historia"]},
+  {"niche": "Biografías de personajes históricos", "queries": ["biografía personaje histórico documental", "vida de napoleón documental"]},
+  {"niche": "Geopolítica explicada", "queries": ["geopolítica explicada", "por qué fracasó el imperio"]},
+  {"niche": "Historia de empresas y marcas", "queries": ["historia de la empresa documental", "cómo nació la marca"]},
+  {"niche": "Economía básica explicada", "queries": ["economía explicada fácil", "cómo funciona la inflación"]},
+  {"niche": "Finanzas personales para adultos", "queries": ["finanzas personales jubilación", "cómo ahorrar para el retiro"]},
+  {"niche": "Relatos para dormir (historia)", "queries": ["historia para dormir relajante", "relatos históricos para dormir"]},
+  {"niche": "Naturaleza y animales documental", "queries": ["documental animales salvajes", "documental naturaleza español"]},
+  {"niche": "Ciencia y universo explicado", "queries": ["universo documental explicado", "agujeros negros explicados"]},
+  {"niche": "Grandes inventos e ingeniería", "queries": ["historia de los inventos documental", "ingeniería increíble explicada"]},
+  {"niche": "Leyendas y mitología", "queries": ["mitología documental", "leyendas latinoamericanas"]},
+  {"niche": "Trucos del hogar y limpieza", "queries": ["trucos de limpieza para el hogar", "cómo quitar manchas trucos caseros"]},
+  {"niche": "Jardinería y huerto casero", "queries": ["huerto casero para principiantes", "cuidado de plantas en casa"]},
+  {"niche": "Cocina tradicional y recetas", "queries": ["recetas tradicionales fáciles", "cocina casera de la abuela"]},
+  {"niche": "Tecnología para mayores", "queries": ["tecnología para personas mayores", "cómo usar el celular tutorial adultos mayores"]},
+  {"niche": "Filosofía y estoicismo", "queries": ["estoicismo explicado", "filosofía para la vida"]},
+  {"niche": "Viajes y ciudades del mundo", "queries": ["historia de ciudades documental", "los mejores destinos para jubilados"]},
+  {"niche": "Curiosidades y datos del mundo", "queries": ["datos curiosos del mundo documental", "cosas que no sabías"]}
+]
