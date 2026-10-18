@@ -31,10 +31,10 @@ if (!fs.existsSync(scenesFile)) {
   process.exit(2);
 }
 const data = JSON.parse(fs.readFileSync(scenesFile, 'utf-8'));
-const inputProps = {channel, fps: data.fps ?? 30, scenes: data.scenes};
+const inputProps = {channel, fps: data.fps ?? 30, scenes: data.scenes, crossfade_s: data.crossfade_s ?? 0};
 
 // Geçici public dizini: fontlar + video assets
-const pub = path.join(repo, '.cache', 'render-public');
+const pub = path.join(repo, '.cache', 'render-public' + (opt('--frames') ? '-' + opt('--frames') : ''));
 fs.rmSync(pub, {recursive: true, force: true});
 fs.mkdirSync(path.join(pub, 'fonts'), {recursive: true});
 const fontSrc = path.join(repo, '.cache', 'fonts');
@@ -82,6 +82,9 @@ if (opt('--still')) {
     browserExecutable,
     frameRange: fr ? fr.split('-').map(Number) : null,
     muted: true,
+    concurrency: Number(process.env.RENDER_CONCURRENCY ?? 4),
+    imageFormat: 'jpeg',
+    jpegQuality: 88,
     onProgress: ({progress}) => process.stdout.write(`\rrender %${Math.round(progress * 100)}`),
   });
   console.log('\nvideo:', out);

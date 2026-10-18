@@ -3,6 +3,10 @@ export type SceneBase = {
   duration_s: number;
   // Senaryodaki söylenen cümle (kelime-görsel eşleşmesi için)
   text_anchor?: string;
+  // Ekranın altında gösterilen kısa altyazı (anlatıcı sesi yokken tempo/anlam kontrolü için)
+  caption?: string;
+  // Birden çok ardışık altyazı (sahne tek ekran, metin sırayla değişir)
+  captions?: {text: string; duration_s: number}[];
 };
 
 export type TitleScene = SceneBase & {
@@ -39,6 +43,9 @@ export type ClipScene = SceneBase & {
   playback_rate?: number;
   grade?: 'warm' | 'neutral' | 'cool';
   label?: {title: string; subtitle?: string}; // alt bant (isim + meslek)
+  motion?: 'zoomin' | 'zoomout' | 'panleft' | 'panright' | 'still'; // hafif kamera hareketi (klibe ek)
+  // Gravür/belge vurgusu: klibin üzerinde köşede küçük kağıt çerçeveli resim
+  pip?: {src: string; caption?: string; side?: 'left' | 'right'};
 };
 
 export type Scene = TitleScene | NameCardScene | PhotoScene | ClipScene;
@@ -46,5 +53,6 @@ export type Scene = TitleScene | NameCardScene | PhotoScene | ClipScene;
 export type EpisodeProps = {
   channel: string;
   fps: number;
+  crossfade_s?: number; // sahneler arası çapraz geçiş süresi
   scenes: Scene[];
 };

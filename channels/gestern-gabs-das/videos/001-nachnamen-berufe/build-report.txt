@@ -1,0 +1,4 @@
+kanca: 5 sahne, 19 sn
+einleitung: 15 sahne, 83 sn
+1: 26 sahne, 128 sn
+toplam: 233 sn (3.9 dk), 44 sahne

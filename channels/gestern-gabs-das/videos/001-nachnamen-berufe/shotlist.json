@@ -1,0 +1,785 @@
+{
+ "crossfade_s": 0.5,
+ "grade": "warm",
+ "sections": {
+  "kanca": {
+   "est_duration_s": 20,
+   "shots": [
+    {
+     "clip": "pexels-29853437",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5538183",
+     "trim_s": 0,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35794910",
+     "trim_s": 0,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-29853437",
+     "trim_s": 4,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-11272050",
+     "trim_s": 0,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-13617608",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7546434",
+     "trim_s": 0,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-34214782",
+     "trim_s": 0,
+     "motion": "panleft",
+     "grade": "warm"
+    }
+   ]
+  },
+  "einleitung": {
+   "est_duration_s": 78,
+   "shots": [
+    {
+     "clip": "pexels-13617608",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-11272050",
+     "trim_s": 8,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6980366",
+     "trim_s": 0,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-30117908",
+     "trim_s": 14,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7546434",
+     "trim_s": 3,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35378802",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-29853437",
+     "trim_s": 2,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5846389",
+     "trim_s": 4,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6765471",
+     "trim_s": 6,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7666907",
+     "trim_s": 3,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7235862",
+     "trim_s": 8,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-34038695",
+     "trim_s": 2,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-34760833",
+     "trim_s": 0,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35378802",
+     "trim_s": 15,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6980366",
+     "trim_s": 14,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-30117908",
+     "trim_s": 4,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-11272050",
+     "trim_s": 14,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7235862",
+     "trim_s": 12,
+     "motion": "zoomout",
+     "grade": "warm"
+    }
+   ]
+  },
+  "1": {
+   "est_duration_s": 122,
+   "label": {
+    "title": "Müller",
+    "subtitle": "Getreidemüller · mahlte Korn zu Mehl"
+   },
+   "pip": {
+    "src": "assets/mueller.jpg",
+    "caption": "Ständebuch 1568 · Deutsche Fotothek",
+    "side": "right",
+    "at_scene": 2
+   },
+   "shots": [
+    {
+     "clip": "pexels-6728035",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-39353425",
+     "trim_s": 0,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-29853437",
+     "trim_s": 0,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35794910",
+     "trim_s": 2,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5538183",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35794910",
+     "trim_s": 12,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6728035",
+     "trim_s": 12,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-34214782",
+     "trim_s": 0,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-8190714",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-13617608",
+     "trim_s": 0,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6980366",
+     "trim_s": 6,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-30117908",
+     "trim_s": 16,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-29853437",
+     "trim_s": 4,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35378802",
+     "trim_s": 5,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-34214782",
+     "trim_s": 12,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-39353425",
+     "trim_s": 5,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35378802",
+     "trim_s": 20,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6728035",
+     "trim_s": 20,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7235862",
+     "trim_s": 6,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5538183",
+     "trim_s": 5,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-11272050",
+     "trim_s": 4,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6980366",
+     "trim_s": 18,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-30117908",
+     "trim_s": 2,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35794910",
+     "trim_s": 18,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-39353425",
+     "trim_s": 2,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6728035",
+     "trim_s": 6,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35378802",
+     "trim_s": 26,
+     "motion": "zoomout",
+     "grade": "warm"
+    }
+   ],
+   "cards": [
+    {
+     "match": "Ebern|Aumüller|Turbinen|Achtzigerjahre",
+     "scene": {
+      "kicker": "Ein Beispiel aus Unterfranken",
+      "title": "Stadtmühle Ebern",
+      "subtitle": "1860 · 1903 · Anfang der 1980er"
+     }
+    }
+   ]
+  },
+  "2": {
+   "est_duration_s": 117,
+   "label": {
+    "title": "Schmidt",
+    "subtitle": "Schmied · formte glühendes Eisen"
+   },
+   "pip": {
+    "src": "assets/schmied.jpg",
+    "caption": "Ständebuch 1568 · Deutsche Fotothek",
+    "side": "right",
+    "at_scene": 2
+   },
+   "shots": [
+    {
+     "clip": "pexels-5846389",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-38104095",
+     "trim_s": 2,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5846383",
+     "trim_s": 4,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-38103748",
+     "trim_s": 0,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5846389",
+     "trim_s": 8,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-38104095",
+     "trim_s": 14,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5846383",
+     "trim_s": 12,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-34214782",
+     "trim_s": 6,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-38103748",
+     "trim_s": 6,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-35378802",
+     "trim_s": 10,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-34038695",
+     "trim_s": 4,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-30117908",
+     "trim_s": 8,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6980366",
+     "trim_s": 2,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-13617608",
+     "trim_s": 0,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-38104095",
+     "trim_s": 24,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-38103748",
+     "trim_s": 10,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5846389",
+     "trim_s": 16,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-11272050",
+     "trim_s": 10,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7546434",
+     "trim_s": 5,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6980366",
+     "trim_s": 24,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5846383",
+     "trim_s": 18,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-38104095",
+     "trim_s": 32,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-30117908",
+     "trim_s": 12,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5846389",
+     "trim_s": 4,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-38103748",
+     "trim_s": 3,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5846383",
+     "trim_s": 0,
+     "motion": "still",
+     "grade": "warm"
+    }
+   ]
+  },
+  "3": {
+   "est_duration_s": 77,
+   "label": {
+    "title": "Schneider / Schröder",
+    "subtitle": "Schneider · machte Kleidung nach Maß"
+   },
+   "pip": {
+    "src": "assets/schneider.jpg",
+    "caption": "Ständebuch 1568 · Deutsche Fotothek",
+    "side": "right",
+    "at_scene": 2
+   },
+   "shots": [
+    {
+     "clip": "pexels-6460176",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6765471",
+     "trim_s": 4,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-4621701",
+     "trim_s": 2,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-8779872",
+     "trim_s": 0,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6765471",
+     "trim_s": 14,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6460176",
+     "trim_s": 5,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-8779872",
+     "trim_s": 8,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-11272050",
+     "trim_s": 16,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7546434",
+     "trim_s": 2,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-13617608",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-4621701",
+     "trim_s": 9,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7235862",
+     "trim_s": 10,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6980366",
+     "trim_s": 10,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-30117908",
+     "trim_s": 6,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6765471",
+     "trim_s": 22,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-8779872",
+     "trim_s": 10,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6765471",
+     "trim_s": 9,
+     "motion": "zoomout",
+     "grade": "warm"
+    }
+   ]
+  },
+  "4": {
+   "est_duration_s": 66,
+   "label": {
+    "title": "Fischer",
+    "subtitle": "Fischer · fing Fisch mit Netz und Reuse"
+   },
+   "pip": {
+    "src": "assets/fischer.jpg",
+    "caption": "Ständebuch 1568 · Deutsche Fotothek",
+    "side": "right",
+    "at_scene": 2
+   },
+   "shots": [
+    {
+     "clip": "pexels-28647793",
+     "trim_s": 0,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-2652362",
+     "trim_s": 0,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5861941",
+     "trim_s": 0,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-17226133",
+     "trim_s": 0,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5861941",
+     "trim_s": 14,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-28978531",
+     "trim_s": 0,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7666907",
+     "trim_s": 2,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-13617608",
+     "trim_s": 0,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5861941",
+     "trim_s": 26,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-2652362",
+     "trim_s": 8,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-7666907",
+     "trim_s": 14,
+     "motion": "panleft",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-28647793",
+     "trim_s": 20,
+     "motion": "zoomout",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-30117908",
+     "trim_s": 10,
+     "motion": "still",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-11272050",
+     "trim_s": 6,
+     "motion": "panright",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-6765471",
+     "trim_s": 18,
+     "motion": "zoomin",
+     "grade": "warm"
+    },
+    {
+     "clip": "pexels-5861941",
+     "trim_s": 34,
+     "motion": "zoomout",
+     "grade": "warm"
+    }
+   ]
+  }
+ },
+ "missing": [
+  "Kanca: havada asılı un tozu (Mehlstaub) yakın planı; 5538183 tahıl akışı yalnız yaklaşık karşılık",
+  "Kanca/Kapanış: un çuvalı yakın planı",
+  "Müller: yel değirmeni (Windmühle) hareketli plan",
+  "Müller: Möller/Müller/Miller şematik kelime haritası (grafik, Remotion) – 7235862 yalnız geçici atmosfer",
+  "Müller: sayaç animasyonu 11.000 → 6.100 (BVerfG 1968), 30117908 üzerine bindirme",
+  "Müller: Ebern su çarkı → türbin kanal illüstrasyonu (Siebdruck); stok klip Ebern gibi etiketlenmemeli",
+  "Schmidt: nal çakılan at toynağı / Hufschmied",
+  "Schmidt: pulluk demiri (Pflugschar) ve traktör geçişi (1950-60'lar) – 34038695 modern köy sokağı yalnız 'bugün' atmosferi",
+  "Schmidt: ahşabı keskin aletle işleme (smid = Holz-Hypothese)",
+  "Schmidt: Schmitz-Säule için kanal illüstrasyonu + 1784 Hochwassermarke damgası (CC BY-SA foto kullanılmaz)",
+  "Schmidt: varyant kartı Schmidt → Schmitt, Schmid, Smet, Kleinschmidt (tipografi)",
+  "Schneider: iğne-iplik 'Stich für Stich' yakın planı ve dikiş makinesi",
+  "Schneider: konfeksiyon askısı (Kleidung von der Stange) – cümle KONTROL'de, silinirse çekim 7 başka kesite kayar",
+  "Schneider: Bier-/Weinschröder fıçı taşıyıcı illüstrasyonu ('umstritten' etiketi)",
+  "Schneider: 'schrōden = schneiden' kelime kartı; Schröder (Nord)/Schröter (Süd) şeması",
+  "Schneider: Kittel (iş önlüğü) görseli",
+  "Fischer: Reuse (örgü balık tuzağı) – 17226133 modern plastik ağ yığını, yalnız yaklaşık",
+  "Fischer: Ulm/Donau, Fischerstechen için kanal illüstrasyonu (iki tekne siluet) + '1545' damga; 28647793 Donau diye etiketlenmemeli",
+  "Fischer: Avrupa/ılıman iklim görünümlü balıkçı klibi (mevcut 7666907, 28978531, 2652362, 17226133 tropik/modern görünümlü)"
+ ],
+ "notes": "Tüm klipler Pexels License (ticari serbest, atıf zorunlu değil; açıklamada yazar adı önerilir). CC BY-SA görsel yok; gravürler PD (Ständebuch 1568, Deutsche Fotothek). 31638148 ve onaylı listede olmayan 7235016 kullanılmadı. Hiçbir çekime yer/ülke/yıl etiketi bağlanmaz; 'anchor' alanı yalnız kelime-görsel eşleşmesi için, ekrana basılmaz. Çekim sayıları ~bölüm_süresi/4.5 (est_duration_s ~140 kelime/dk tahmini; ses gelince yeniden hizalanır). Kanca ~20 sn ama kural gereği 8 çekim: kesimler ~2.5 sn, hızlı kanca; builder gerekirse ilk 5'te kesebilir, anlatı sırası ilk 5 çekimde tamam. Aynı klip ardışık değil, ardışık hareket aynı değil (bölüm geçişleri dahil kontrol edildi); tekrar eden kliplerde trim_s farklı ve trim_s + 4.5 <= klip süresi. Kısa klipler (13617608 5 sn, 28978531 6 sn, 17226133 7 sn) yalnız trim 0 ile ve bölüm başına bir kez. 7235862 trim 0-5 aralığı okunabilir ülke etiketli harita içeriyor: bilinçli olarak 6+ kullanıldı. 7546434 ve 11272050'deki eski fotoğraflar gerçek kişi/yer gibi adlandırılmaz. pip at_scene 2 her bölümde; Schmidt ('Faber ... 1568', son çekim) ve Fischer ('Piscator ... Holzschnitt', çekim 9) gravürü anlatıda daha geç andığı için builder ikinci bir pip desteklerse o çekimlerde tekrarı önerilir. Görsel üretimi (illüstrasyon) bu listede yok; 'missing' maddeleri ücretli üretim gerektirirse kullanıcı onayı gerekir.",
+ "title_after_kanca": {
+  "kicker": "Gestern gab's das",
+  "title": "13 Namen – 13 Berufe",
+  "subtitle": "Müller, Schmidt, Wagner & Co."
+ }
+}

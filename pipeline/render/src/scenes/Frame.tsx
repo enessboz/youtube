@@ -3,14 +3,22 @@ import {AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig} from 'remoti
 import type {Theme} from '../theme';
 
 // Kağıt zemin + yarım ton köşe deseni + yumuşak giriş/çıkış.
-export const Frame: React.FC<{theme: Theme; children: React.ReactNode}> = ({theme, children}) => {
+export const Frame: React.FC<{theme: Theme; children: React.ReactNode; fadeIn?: number; fadeOut?: number}> = ({
+  theme,
+  children,
+  fadeIn,
+  fadeOut,
+}) => {
   const frame = useCurrentFrame();
   const {durationInFrames, fps} = useVideoConfig();
-  const fade = Math.round(0.4 * fps);
-  const opacity = interpolate(frame, [0, fade, durationInFrames - fade, durationInFrames], [0, 1, 1, 0], {
-    extrapolateLeft: 'clamp',
-    extrapolateRight: 'clamp',
-  });
+  const fin = fadeIn ?? Math.round(0.4 * fps);
+  const fout = fadeOut ?? Math.round(0.4 * fps);
+  const opacity = Math.min(
+    fin > 0 ? interpolate(frame, [0, fin], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1,
+    fout > 0
+      ? interpolate(frame, [durationInFrames - fout, durationInFrames], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})
+      : 1,
+  );
   const dots = (corner: 'tl' | 'br') => (
     <svg
       width={620}
