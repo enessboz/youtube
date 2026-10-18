@@ -249,23 +249,26 @@ Her hafta doldurulacak tablo: video, 14. gün izlenme, CTR, ort. izlenme süresi
 - Metrik: **1.000 izlenmede abone**; çağrı metni ve yerleşimi buna göre A/B edilir.
 - Yasak: abone karşılığı vaat, yanıltıcı çağrı.
 
-### 7.7 Kanal adları
-**Kriterler:** rakip kalıplarından farklı ("Vergessene…", "Früher", "Ricordi…" değil), hatırlanır, 2-3 kelime, ses ve kimlikle uyumlu, handle boş.
-Handle kontrolü (`forHandle`, 1 birim): boş görünenler uygun, ancak **kanalı açarken YouTube Studio'da tekrar doğrulanmalı** ve benzer isimli kanallar elle aranmalı.
+### 7.7 Kanal adları (kesinleşti)
+| Dil | Ad | Handle | Klasör | Neden |
+|---|---|---|---|---|
+| DE | **Gestern gab's das** | @GesternGabsDas | `channels/gestern-gabs-das/` | Günlük konuşma tonu, dükkân/marka/eşya konseptine uyar, rakip kalıplarından ("Vergessene…", "Früher") farklı |
+| IT | **Quando Eravamo Noi** | @QuandoEravamoNoi | `channels/quando-eravamo-noi/` | Sıcak, kişisel; meslek, bottega, çocukluk konseptine uyar |
 
-| Dil | Aday (handle durumu) |
-|---|---|
-| DE | **Gestern gab's das** (@GesternGabsDas boş) ← öneri; Unser Damals (boş); Zeitfenster Alltag (boş); Damals im Land (boş); Das war mal Deutschland (boş). Dolu: Alltag von gestern, Spuren des Alltags |
-| IT | **Quando Eravamo Noi** (@QuandoEraviamoNoi boş) ← öneri; Bottega del Ricordo (boş; dükkân/meslek konseptine çok uygun); Quando Ero Bambino (boş); Ieri in Bottega (boş); Via del Ricordo (boş). Dolu: Il Tempo di Ieri, L'Italia di Ieri |
-
-Karar kullanıcıda; marka tescili/benzer isim araştırması kullanıcı tarafında yapılacak.
+Handle'lar API'de boş göründü; kanalı açarken Studio'da tekrar doğrula ve benzer isimli kanalları elle ara. Elenen/dolu adaylar: Alltag von gestern, Spuren des Alltags, Il Tempo di Ieri, L'Italia di Ieri. Yedekler: Unser Damals, Zeitfenster Alltag (DE); Bottega del Ricordo, Quando Ero Bambino (IT).
 
 ### 7.8 Sonraki işler
 1. Ses seçimi (7.3): 3 aday × 2 dil, kör dinleme.
-2. Kanal adlarını kesinleştir, kanalları aç (§6 hesap yapısı: tek marka çatısı, gerçek kimlik).
+2. Kanalları aç (§6 hesap yapısı: tek marka çatısı, gerçek kimlik).
 3. İlk video uçtan uca (Faz 2): Kanal A video #1 (soyadları).
 4. Anadili düzeltmen bul (bütçe kalemi).
 5. 3. kanal slotu için İspanyolca'ya (İspanya'ya özgü, sağlık iddiasız) ikinci tur.
+
+### 7.9 Düzen, ajanlar, araçlar, bütçe
+- Klasör düzeni ve veri akışı: `docs/ARCHITECTURE.md` (her kanalın kendi klasörü: `channels/<kanal>/`).
+- Üst ajan + alt ajanlar ve model yönlendirme (opus/sonnet/haiku): `docs/AGENTS.md`, `.claude/agents/`, `.claude/skills/produce-video/`.
+- Araçlar ve kütüphaneler (repo klonu yok): `docs/TOOLS.md`. Haftalık bütçe: `docs/BUDGET.md`.
+- Görsel strateji (arşiv > efemera > grafik > sabit illüstrasyon; beyanlı sentetik): `docs/VISUALS.md`.
 
 ---
 

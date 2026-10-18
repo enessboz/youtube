@@ -1,0 +1,7 @@
+# Boru hattı bağımlılıkları (docs/TOOLS.md). Kurulumdan önce lisans ve sürümleri doğrula.
+google-api-python-client
+google-auth-oauthlib
+elevenlabs
+yt-dlp
+youtube-transcript-api
+# faster-whisper   # yalnızca altyazı hizalama gerekirse (büyük bağımlılık)

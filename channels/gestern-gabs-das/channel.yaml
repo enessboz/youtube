@@ -1,0 +1,22 @@
+slug: gestern-gabs-das
+name: "Gestern gab's das"
+handle: "@GesternGabsDas"            # Studio'da tekrar doğrula
+language: de
+market: DE
+status: planlama                   # planlama | test | izle | ölçekle | kapalı
+target_minutes: 25
+format_mix_percent: {liste: 60, derin: 25, karsilastirma: 15}
+cadence:
+  first_4_weeks_per_week: 3
+  buffer_videos: 3
+voice:
+  provider: elevenlabs
+  approach: voice_design           # kütüphane sesi değil; brand/voice.md'ye bak
+  voice_id: null
+kill_rules:                        # PLAN.md §7.5; 14. gün ölçümü
+  checkpoint_video_10: {trigger_packaging_round_if: "medyan<300 veya CTR<%2"}
+  checkpoint_video_20:
+    kill_if: "medyan<1K VE en iyi<10K VE abone<300"
+    watch_if: "medyan 1-3K VEYA en iyi 10-50K"
+    scale_if: "medyan>=5K VEYA en iyi>=100K VEYA abone>=1000"
+  checkpoint_video_40: "1000 abone/4000 saat eşiğine uzak ve medyan<3K ise kes veya konsept değiştir"
