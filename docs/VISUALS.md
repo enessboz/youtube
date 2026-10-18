@@ -3,6 +3,7 @@
 **Hedef:** rakiplerin ortak "AI nine + sarı-siyah kapak + sepya" görünümünden kökten farklı, tutarlı ve kaliteli bir görsel dil. Bu fark kaliteden ve sanat yönünden gelir; yapay zeka kullanımını **gizlemekten** gelmez. Gerçekçi sentetik içerik YouTube'da beyan edilir ve sahte "tarihî fotoğraf" üretilmez. Hem politika hem izleyici güveni için, hem de uzun vadede daha iyi bir markadır.
 
 ## Kaynak hiyerarşisi (yukarıdan aşağı)
+0. **Gerçek hareketli görüntü (ana omurga):** stok video (Pexels/Pixabay, ticari kullanım serbest; `pipeline/footage/footage.py`) ve lisansı doğrulanmış arşiv filmi. Video **hareketli planlardan** oluşur (3-6 sn'lik çekimler), fotoğraf/gravür yalnızca vurgu, belge ve karşılaştırma için; tüm videoyu fotoğraf slayt gösterisine çevirmeyiz. Stok görüntüde yer/ülke iddiası yapma (klipin nerede çekildiği bilinmiyor). Tüm klipler kanalın renk düzeltmesi, film greni ve vinyetiyle aynı görünüme oturtulur (`pipeline/render/src/scenes/Clip.tsx`).
 1. **Gerçek arşiv** fotoğraf/film (lisansı doğrulanmış; atıf zorunluysa açıklamada). Ülkeye özgü kaynaklar `channels/<kanal>/brand/visual-style.md`'de.
 2. **Belge ve efemera taramaları:** katalog sayfası, etiket, pul, bilet, gazete başlığı (telif durumu her öğe için kontrol edilir).
 3. **Grafik:** harita, zaman çizelgesi, sayaç, tipografi, fiyat etiketi animasyonları.

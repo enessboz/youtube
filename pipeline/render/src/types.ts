@@ -32,7 +32,16 @@ export type PhotoScene = SceneBase & {
   motion?: 'pushin' | 'panleft' | 'panright';
 };
 
-export type Scene = TitleScene | NameCardScene | PhotoScene;
+export type ClipScene = SceneBase & {
+  type: 'clip';
+  src: string; // assets/footage/ altındaki mp4
+  trim_start_s?: number;
+  playback_rate?: number;
+  grade?: 'warm' | 'neutral' | 'cool';
+  label?: {title: string; subtitle?: string}; // alt bant (isim + meslek)
+};
+
+export type Scene = TitleScene | NameCardScene | PhotoScene | ClipScene;
 
 export type EpisodeProps = {
   channel: string;

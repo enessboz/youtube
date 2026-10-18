@@ -6,6 +6,7 @@ import {Frame} from './scenes/Frame';
 import {Title} from './scenes/Title';
 import {NameCard} from './scenes/NameCard';
 import {Photo} from './scenes/Photo';
+import {Clip} from './scenes/Clip';
 import type {EpisodeProps, Scene} from './types';
 
 const FPS = 30;
@@ -18,6 +19,8 @@ const renderScene = (theme: (typeof themes)[string], scene: Scene) => {
       return <NameCard theme={theme} scene={scene} />;
     case 'photo':
       return <Photo theme={theme} scene={scene} />;
+    case 'clip':
+      return <Clip theme={theme} scene={scene} />;
   }
 };
 
