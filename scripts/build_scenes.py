@@ -156,7 +156,7 @@ def main():
                 "id": f"s{n:03d}",
                 "type": "clip",
                 "duration_s": dur,
-                "src": f"assets/footage/{c}.mp4",
+                "src": f"assets/footage-r/{c}.mp4",
                 "trim_start_s": round(start, 2),
                 "playback_rate": rate,
                 "grade": "warm",

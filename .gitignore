@@ -8,3 +8,4 @@ channels/*/videos/*/render/*.png
 node_modules/
 out/
 channels/*/videos/*/assets/footage/*.mp4
+channels/*/videos/*/assets/footage-r/

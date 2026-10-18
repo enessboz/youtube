@@ -82,6 +82,8 @@ if (opt('--still')) {
     browserExecutable,
     frameRange: fr ? fr.split('-').map(Number) : null,
     muted: true,
+    offthreadVideoCacheSizeInBytes: 400 * 1024 * 1024,
+    timeoutInMilliseconds: 120000,
     concurrency: Number(process.env.RENDER_CONCURRENCY ?? 4),
     imageFormat: 'jpeg',
     jpegQuality: 88,
