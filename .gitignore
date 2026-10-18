@@ -1,3 +1,5 @@
-out/
-__pycache__/
 *.pyc
+.cache/
+__pycache__/
+channels/*/launch/art/_preview*
+out/
