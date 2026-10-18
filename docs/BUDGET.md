@@ -23,11 +23,24 @@ Kullanım başına oran sayfada: v2/v3 **$0,08 / 1.000 karakter**, Flash **$0,04
 |---|---|---|---|
 | Creator (275K) | $22 | $5 | Yetmez: ayda ~9 video. Ses seçimi ve ilk 2-3 video için uygun. |
 | **Pro (1,238M)** | **$99** | **$23** | 6 video/hafta için yeterli, kalan pay yeniden üretime. **Önerilen.** |
-| **API, kullandığın kadar öde (v2/v3)** | **≈ $65** | **$15** | Doğrulandı (elevenlabs.io/pricing/api): $0,08 / 1K karakter, taahhüt yok, USD faturalanır. Pro ile aynı oran ($80/1M), ama sabit ücret yok. |
+| API, kullandığın kadar öde (v2/v3) | ≈ $65 | $15 | Oran doğrulandı ($0,08 / 1K, elevenlabs.io/pricing/api). **Ama tek başına ticari kullanım için yetmez, aşağıdaki Lisans bölümüne bak.** |
 | API, kullandığın kadar öde (Flash/Turbo) | ≈ $32 | $7,5 | Doğrulandı: $0,04 / 1K karakter; daha az doğal |
 | Flash ile Pro | $99 | — | Karakter payı iki katı ama daha az doğal; 55+ kitlede dinleyerek karşılaştır |
 
-**Öneri (güncel):** abonelik yerine **API'de kullandığın kadar öde**. Pro'nun etkin oranı da $80/1M karakter olduğu için, 1,238M karakterin altında kullanıyorsak ($99'ı doldurmuyorsak) PAYG her zaman eşit veya ucuz. Bir video ≈ $2-2,5, 60 sn'lik ses testi ≈ $0,08. Doğrulanması gerekenler: minimum harcama/ön ödeme, PAYG'de ticari kullanım hakkı ve Voice Design erişimi. Bunlardan biri kapalıysa Starter ($1 ilk ay) ile başla.
+**Öneri (güncel, lisans bulgusuyla düzeltildi):** **Starter aboneliği ($1 ilk ay, sonra $5-6; sayfalar çelişiyor) + gerektikçe Pay As You Go (ön ödemeli kredi).** Pay As You Go abonelik yerine değil, abonelik kotası bittiğinde devreye giren ek kredidir. Starter + kredi maliyeti Creator ile yaklaşık aynıdır (≈ 9 video için ≈ $22), ama taahhüt küçüktür. Kill edersek aboneliği iptal ederiz.
+
+### Lisans (ticari kullanım) — resmi kaynaklardan
+Kaynaklar: ElevenLabs Terms of Use, "Can I publish the content I generate" yardım sayfası, Billing dokümanı (erişim: 2026-10).
+- **Ücretsiz kullanım ticari değil.** ToS 1(c)(i): ücretsiz kullanımda yalnızca ticari olmayan amaç. Yardım sayfası: ücretsiz planda içerik yayınlanırsa başlıkta "elevenlabs.io" geçmeli.
+- **Ücretli abonelikte ticari kullanım serbest.** ToS 1(c)(ii) ve yardım sayfası: ücretli planda üretilen içerik ticari kullanılabilir; abonelik bitse bile **abonelik sırasında üretilen** içeriğin ticari lisansı sürer.
+- **Abonelik dışında üretilen içerik ticari kullanılamaz** (öncesi ve sonrası). Yani ses ancak **aktif ücretli abonelik varken** üretilmeli.
+- **Pay As You Go** Billing dokümanında "self-serve aboneliklerin kota bittiğinde kullandığı ön ödemeli kredi" olarak tanımlı, 12 ay geçerli. Aboneliksiz API kullanımı için ticari lisans açıkça güvence altında değil: **abonelik şart varsayılmalı**, kesin cevap için ElevenLabs destekten yazılı teyit al.
+- **Beta servisler ticari kullanıma kapalı** (Beta Services Addendum). Kullandığımız model veya özellik (ör. Eleven v3, Voice Design) arayüzde "beta" etiketliyse üretilen ses ticari yayınlanamaz: **kullanmadan önce her özelliğin beta durumunu kontrol et.**
+- **Prohibited Use Policy** (başka birinin sesini taklit, yanıltıcı kullanım vb.) ToS'a bağlı; ayrı sayfa, bu oturumda okunmadı: abonelikten önce oku.
+- ToS 4(d): ElevenLabs, girdi ve çıktılarımıza (senaryolar dahil) kalıcı, devredilemez-iptal edilemez ve alt lisanslanabilir bir lisans alır. Gizli içerik gönderme.
+- ToS 10: hizmet aynı veya benzer çıktıyı başkasına da üretebilir. Voice Design sesinin **tamamen benzersiz olacağı garanti değil.**
+- ToS 4(k): çıktıyı yayınlamadan önce kontrol etmek bizim sorumluluğumuz.
+- Telif tarafında YouTube'a özgü bir şart sayfada yok; monetizasyon YouTube'un kendi politikalarına tabi.
 
 ## Ses alternatifleri (ucuz seçenekler) — aylık ≈ 810K karakter için
 Doğrulanmış = resmi sayfada gördüm; doğrulanmadı = hafızamdan veya üçüncü taraf kaynaktan.
@@ -45,7 +58,7 @@ Doğrulanmış = resmi sayfada gördüm; doğrulanmadı = hafızamdan veya üç�
 
 **Dengesi:** Ucuz seçeneklerde (OpenAI, Azure, Google) sesler çoğunlukla başkalarının da kullandığı hazır sesler; planın "yaygın hazır sesten kaçın" kuralıyla çelişir (toplu üretim işareti). ElevenLabs'in farkı Voice Design ile benzersiz ses. Bunun izleyici tutmasına etkisini **bilmiyoruz**.
 
-**Karar yöntemi (maliyeti < $5):** Aynı 60 sn'lik Almanca ve İtalyanca örneği 4 motorla üret (ElevenLabs Creator ayı, OpenAI `tts-1-hd` ve `gpt-4o-mini-tts`, Azure veya Google), anadili konuşan (mümkünse 55+) birine kör dinlet. Ucuz seçenek yeterliyse onu seç. ElevenLabs'te maliyeti düşüren yollar: Flash, retake payını azaltmak, ilk ay Creator.
+**Karar yöntemi (maliyeti < $5):** Aynı 60 sn'lik Almanca ve İtalyanca örneği 4 motorla üret (ElevenLabs Starter ayı, OpenAI `tts-1-hd` ve `gpt-4o-mini-tts`, Azure veya Google), anadili konuşan (mümkünse 55+) birine kör dinlet. Ucuz seçenek yeterliyse onu seç. ElevenLabs'te maliyeti düşüren yollar: Flash, retake payını azaltmak, ilk ay Creator.
 
 **Perspektif:** 2 kanal × 20 video test fazı ≈ 40 video ≈ 1,24M karakter ≈ **tek Pro ayı ($99)**. Yani ElevenLabs'in tüm test fazı maliyeti yaklaşık $100-130; kill edersek kayıp bu.
 
