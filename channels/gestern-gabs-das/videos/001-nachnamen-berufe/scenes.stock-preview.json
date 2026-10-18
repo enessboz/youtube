@@ -1,0 +1,732 @@
+{
+  "fps": 30,
+  "transition_frames": 6,
+  "silent_preview": true,
+  "timing_basis": "140 words/minute; no audio alignment",
+  "duration_s": 276.1666666666667,
+  "scenes": [
+    {
+      "id": "preview-001",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Aus Korn wird Mehl. Dazu\npasst ein Wort, das wir alle",
+      "text_anchor": "Aus Korn wird Mehl. Dazu passt ein Wort, das wir alle",
+      "headline": "Dein Name.\nEin altes Handwerk."
+    },
+    {
+      "id": "preview-002",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-855416.mp4",
+      "trim_start_s": 1.0,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "kennen: Müller. Aber wer heute Müller\nheißt, muss natürlich kein Müller",
+      "text_anchor": "kennen: Müller. Aber wer heute Müller heißt, muss natürlich kein Müller"
+    },
+    {
+      "id": "preview-003",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-19740011.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "sein. Genau um diesen Unterschied\ngeht es heute. Ein Nachname kann",
+      "text_anchor": "sein. Genau um diesen Unterschied geht es heute. Ein Nachname kann"
+    },
+    {
+      "id": "preview-004",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "eine alte Tätigkeit bewahren. Was\nsein Träger heute macht, verrät er",
+      "text_anchor": "eine alte Tätigkeit bewahren. Was sein Träger heute macht, verrät er"
+    },
+    {
+      "id": "preview-005",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-855416.mp4",
+      "trim_start_s": 6.0,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "uns damit noch lange nicht.",
+      "text_anchor": "uns damit noch lange nicht."
+    },
+    {
+      "id": "preview-006",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-31638148.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Müller, Schmidt, Schneider. Diese Namen\nklingen so vertraut, dass wir kaum",
+      "text_anchor": "Müller, Schmidt, Schneider. Diese Namen klingen so vertraut, dass wir kaum"
+    },
+    {
+      "id": "preview-007",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 10.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "noch auf ihren Inhalt hören.\nHeute hören wir genauer hin. In",
+      "text_anchor": "noch auf ihren Inhalt hören. Heute hören wir genauer hin. In"
+    },
+    {
+      "id": "preview-008",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4621701.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "dieser Vorschau besuchen wir die\nersten vier von dreizehn Berufen und",
+      "text_anchor": "dieser Vorschau besuchen wir die ersten vier von dreizehn Berufen und"
+    },
+    {
+      "id": "preview-009",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4440938.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Ämtern, die in Familiennamen weiterleben.\nManche Arbeiten kennen wir noch. Bei",
+      "text_anchor": "Ämtern, die in Familiennamen weiterleben. Manche Arbeiten kennen wir noch. Bei"
+    },
+    {
+      "id": "preview-010",
+      "type": "clip",
+      "duration_s": 4.5,
+      "src": "assets/footage/pexels-27987395.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "anderen müssen wir erst fragen:\nWas machte so jemand eigentlich?",
+      "text_anchor": "anderen müssen wir erst fragen: Was machte so jemand eigentlich?"
+    },
+    {
+      "id": "preview-011",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-31638148.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Wenn dir solche Erinnerungen gefallen:\nAbonnier den Kanal – jede Woche",
+      "text_anchor": "Wenn dir solche Erinnerungen gefallen: Abonnier den Kanal – jede Woche",
+      "cta": "Abonnieren · ein neues Stück Gestern"
+    },
+    {
+      "id": "preview-012",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 15.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "kommt ein neues Stück Gestern dazu.",
+      "text_anchor": "kommt ein neues Stück Gestern dazu."
+    },
+    {
+      "id": "preview-013",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4621701.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Unsere Reise führt von der Mühle\nzur Schmiede, vom Webstuhl zur",
+      "text_anchor": "Unsere Reise führt von der Mühle zur Schmiede, vom Webstuhl zur"
+    },
+    {
+      "id": "preview-014",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4440938.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Werkstatt. Später kommen Menschen dazu,\ndie Höfe verwalteten oder Recht sprachen.",
+      "text_anchor": "Werkstatt. Später kommen Menschen dazu, die Höfe verwalteten oder Recht sprachen."
+    },
+    {
+      "id": "preview-015",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-27987395.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Dabei unterscheiden wir immer zwischen\nder Geschichte eines Wortes und der",
+      "text_anchor": "Dabei unterscheiden wir immer zwischen der Geschichte eines Wortes und der"
+    },
+    {
+      "id": "preview-016",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-31638148.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Geschichte einer einzelnen Familie. Für die\nzweite braucht man eigene Familienforschung.",
+      "text_anchor": "Geschichte einer einzelnen Familie. Für die zweite braucht man eigene Familienforschung."
+    },
+    {
+      "id": "preview-017",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Der Name allein reicht dafür nicht.",
+      "text_anchor": "Der Name allein reicht dafür nicht."
+    },
+    {
+      "id": "preview-018",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-855416.mp4",
+      "trim_start_s": 1.0,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Korn hinein, Mehl heraus. So einfach\nlässt sich die Arbeit beschreiben.",
+      "text_anchor": "Korn hinein, Mehl heraus. So einfach lässt sich die Arbeit beschreiben.",
+      "label": {
+        "title": "MÜLLER",
+        "subtitle": "Vom Korn zum Mehl"
+      }
+    },
+    {
+      "id": "preview-019",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-19740011.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Doch hinter diesem kurzen Satz\nsteckt ein eigener Beruf. Der Müller",
+      "text_anchor": "Doch hinter diesem kurzen Satz steckt ein eigener Beruf. Der Müller"
+    },
+    {
+      "id": "preview-020",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "mahlte Getreide gewerblich. Wasser oder\nWind konnten die Mühle antreiben. Im",
+      "text_anchor": "mahlte Getreide gewerblich. Wasser oder Wind konnten die Mühle antreiben. Im"
+    },
+    {
+      "id": "preview-021",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-855416.mp4",
+      "trim_start_s": 6.0,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Namen bleibt diese Tätigkeit erhalten,\nauch wenn in der Familie heute",
+      "text_anchor": "Namen bleibt diese Tätigkeit erhalten, auch wenn in der Familie heute"
+    },
+    {
+      "id": "preview-022",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-19740011.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "niemand mehr eine Mühle von innen kennt.",
+      "text_anchor": "niemand mehr eine Mühle von innen kennt.",
+      "inset": {
+        "src": "assets/mueller.jpg",
+        "caption": "Berufsbild im Ständebuch, 1568 · gemeinfrei"
+      }
+    },
+    {
+      "id": "preview-023",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 10.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Und warum heißt der eine Müller,\nder andere Möller? In älteren",
+      "text_anchor": "Und warum heißt der eine Müller, der andere Möller? In älteren"
+    },
+    {
+      "id": "preview-024",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-855416.mp4",
+      "trim_start_s": 1.0,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "niederdeutschen Wörtern begegnet uns der\nMöller. Besonders hübsch ist Miller. Das",
+      "text_anchor": "niederdeutschen Wörtern begegnet uns der Möller. Besonders hübsch ist Miller. Das"
+    },
+    {
+      "id": "preview-025",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-19740011.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "klingt für manche Ohren zunächst englisch.\nBei einem schwäbischen Familiennamen kann",
+      "text_anchor": "klingt für manche Ohren zunächst englisch. Bei einem schwäbischen Familiennamen kann"
+    },
+    {
+      "id": "preview-026",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 15.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "es aber eine heimische Dialektform\nsein. Die Schreibweise ist also kein",
+      "text_anchor": "es aber eine heimische Dialektform sein. Die Schreibweise ist also kein"
+    },
+    {
+      "id": "preview-027",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-855416.mp4",
+      "trim_start_s": 6.0,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Beweis für eine Herkunft aus England.",
+      "text_anchor": "Beweis für eine Herkunft aus England."
+    },
+    {
+      "id": "preview-028",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-19740011.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Auch der Beruf selbst blieb nicht\nunverändert. In der Bundesrepublik sollte",
+      "text_anchor": "Auch der Beruf selbst blieb nicht unverändert. In der Bundesrepublik sollte"
+    },
+    {
+      "id": "preview-029",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "das Mühlengesetz Überkapazitäten abbauen. Die\nfreiwillige Stilllegung von Mühlen konnte mit",
+      "text_anchor": "das Mühlengesetz Überkapazitäten abbauen. Die freiwillige Stilllegung von Mühlen konnte mit"
+    },
+    {
+      "id": "preview-030",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-855416.mp4",
+      "trim_start_s": 1.0,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "öffentlichen Mitteln gefördert werden. Das ist\nein ganz bestimmter westdeutscher Zusammenhang.",
+      "text_anchor": "öffentlichen Mitteln gefördert werden. Das ist ein ganz bestimmter westdeutscher Zusammenhang."
+    },
+    {
+      "id": "preview-031",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-19740011.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Wir übertragen ihn deshalb nicht\neinfach auf die DDR. Der Familienname",
+      "text_anchor": "Wir übertragen ihn deshalb nicht einfach auf die DDR. Der Familienname"
+    },
+    {
+      "id": "preview-032",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-35794910.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "blieb von solchen Veränderungen unberührt.\nEin stillgelegtes Mahlwerk löscht keinen Namen",
+      "text_anchor": "blieb von solchen Veränderungen unberührt. Ein stillgelegtes Mahlwerk löscht keinen Namen"
+    },
+    {
+      "id": "preview-033",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-855416.mp4",
+      "trim_start_s": 6.0,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "aus.",
+      "text_anchor": "aus."
+    },
+    {
+      "id": "preview-034",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-31638148.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Jetzt wechseln wir vom Mehl zum Metall.\nEin Schmied bearbeitet glühendes",
+      "text_anchor": "Jetzt wechseln wir vom Mehl zum Metall. Ein Schmied bearbeitet glühendes",
+      "label": {
+        "title": "SCHMIDT",
+        "subtitle": "Das Handwerk am Feuer"
+      }
+    },
+    {
+      "id": "preview-035",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-5846397.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Metall mit dem Hammer. Aus\ndiesem Handwerk führt der Weg zum",
+      "text_anchor": "Metall mit dem Hammer. Aus diesem Handwerk führt der Weg zum"
+    },
+    {
+      "id": "preview-036",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-5846389.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Namen Schmidt. Bei der Tätigkeit\nschauen wir auf Metall und Werkzeug.",
+      "text_anchor": "Namen Schmidt. Bei der Tätigkeit schauen wir auf Metall und Werkzeug."
+    },
+    {
+      "id": "preview-037",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4186969.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Bei dem Namen fragen wir nach\ndem alten Wort. Das hängt",
+      "text_anchor": "Bei dem Namen fragen wir nach dem alten Wort. Das hängt"
+    },
+    {
+      "id": "preview-038",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-38104095.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "zusammen, erzählt aber nicht dieselbe Geschichte.",
+      "text_anchor": "zusammen, erzählt aber nicht dieselbe Geschichte."
+    },
+    {
+      "id": "preview-039",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-31638148.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Als Name begegnet uns der Schmied in\nmehreren Schreibweisen: Schmidt, Schmitt",
+      "text_anchor": "Als Name begegnet uns der Schmied in mehreren Schreibweisen: Schmidt, Schmitt",
+      "inset": {
+        "src": "assets/schmied.jpg",
+        "caption": "Berufsbild im Ständebuch, 1568 · gemeinfrei"
+      }
+    },
+    {
+      "id": "preview-040",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-5846397.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "und Schmid. Das Digitale Familiennamenwörterbuch\nbehandelt solche Formen in einem Zusammenhang.",
+      "text_anchor": "und Schmid. Das Digitale Familiennamenwörterbuch behandelt solche Formen in einem Zusammenhang."
+    },
+    {
+      "id": "preview-041",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-5846389.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Die Buchstaben unterscheiden sich. Das alte\nBerufsbild bleibt erkennbar. Eine solche",
+      "text_anchor": "Die Buchstaben unterscheiden sich. Das alte Berufsbild bleibt erkennbar. Eine solche"
+    },
+    {
+      "id": "preview-042",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4186969.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Namensfamilie ist aber keine Verwandtschaftsliste.\nZwei ähnliche Namen machen aus fremden",
+      "text_anchor": "Namensfamilie ist aber keine Verwandtschaftsliste. Zwei ähnliche Namen machen aus fremden"
+    },
+    {
+      "id": "preview-043",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-38104095.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Menschen noch keine Angehörigen.",
+      "text_anchor": "Menschen noch keine Angehörigen."
+    },
+    {
+      "id": "preview-044",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-31638148.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Das Berufsbild hilft uns, die Schreibweisen\ngemeinsam zu betrachten. Bei Schmidt",
+      "text_anchor": "Das Berufsbild hilft uns, die Schreibweisen gemeinsam zu betrachten. Bei Schmidt"
+    },
+    {
+      "id": "preview-045",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-5846397.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "hören wir heute den Namen. Bei\nSchmied hören wir die Tätigkeit.",
+      "text_anchor": "hören wir heute den Namen. Bei Schmied hören wir die Tätigkeit."
+    },
+    {
+      "id": "preview-046",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-5846389.mp4",
+      "trim_start_s": 10.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Im Alltag stehen diese Wörter selten\ndirekt nebeneinander. Auf unserer Reise",
+      "text_anchor": "Im Alltag stehen diese Wörter selten direkt nebeneinander. Auf unserer Reise"
+    },
+    {
+      "id": "preview-047",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4186969.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "tun wir genau das. So wird aus\neinem vertrauten Namen wieder",
+      "text_anchor": "tun wir genau das. So wird aus einem vertrauten Namen wieder"
+    },
+    {
+      "id": "preview-048",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-38104095.mp4",
+      "trim_start_s": 10.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "eine Frage: Welche Arbeit steckt darin?",
+      "text_anchor": "eine Frage: Welche Arbeit steckt darin?"
+    },
+    {
+      "id": "preview-049",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4621701.mp4",
+      "trim_start_s": 10.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Eine Schere fährt durch Stoff.\nSofort denken wir an den Schneider.",
+      "text_anchor": "Eine Schere fährt durch Stoff. Sofort denken wir an den Schneider.",
+      "label": {
+        "title": "SCHNEIDER / SCHRÖDER",
+        "subtitle": "Ein Name aus dem Handwerk"
+      }
+    },
+    {
+      "id": "preview-050",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-6765465.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Bei Schröder ist dieser Zusammenhang weniger\noffensichtlich. Die niederdeutsche Form hängt",
+      "text_anchor": "Bei Schröder ist dieser Zusammenhang weniger offensichtlich. Die niederdeutsche Form hängt"
+    },
+    {
+      "id": "preview-051",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-6459918.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "mit einem Wort für Schneiden zusammen\nund bezeichnet meist den Schneider.",
+      "text_anchor": "mit einem Wort für Schneiden zusammen und bezeichnet meist den Schneider."
+    },
+    {
+      "id": "preview-052",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-6460113.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Der bekannte Name führt uns\nalso ebenfalls in die Arbeit mit",
+      "text_anchor": "Der bekannte Name führt uns also ebenfalls in die Arbeit mit"
+    },
+    {
+      "id": "preview-053",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-4621701.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Kleidung.",
+      "text_anchor": "Kleidung."
+    },
+    {
+      "id": "preview-054",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-5537827.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Bei dem Wort „meist“ lohnt es\nsich, kurz stehen zu bleiben.",
+      "text_anchor": "Bei dem Wort „meist“ lohnt es sich, kurz stehen zu bleiben.",
+      "inset": {
+        "src": "assets/schneider.jpg",
+        "caption": "Berufsbild im Ständebuch, 1568 · gemeinfrei"
+      }
+    },
+    {
+      "id": "preview-055",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-6459918.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Für Schröder und Schröter gibt es\nauch eine Deutung im Zusammenhang",
+      "text_anchor": "Für Schröder und Schröter gibt es auch eine Deutung im Zusammenhang"
+    },
+    {
+      "id": "preview-056",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-5537827.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "mit dem Transport von Bier- und\nWeinfässern. Wir dürfen deshalb nicht",
+      "text_anchor": "mit dem Transport von Bier- und Weinfässern. Wir dürfen deshalb nicht"
+    },
+    {
+      "id": "preview-057",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4621701.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "jeder Familie dieselbe Geschichte zuschreiben.\nNamenforschung kennt manchmal mehrere Wege zu",
+      "text_anchor": "jeder Familie dieselbe Geschichte zuschreiben. Namenforschung kennt manchmal mehrere Wege zu"
+    },
+    {
+      "id": "preview-058",
+      "type": "clip",
+      "duration_s": 3.2,
+      "src": "assets/footage/pexels-6765465.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "einer ähnlichen Form.",
+      "text_anchor": "einer ähnlichen Form."
+    },
+    {
+      "id": "preview-059",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4440938.mp4",
+      "trim_start_s": 10.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Beim Fischer sind Wort und Tätigkeit\nwieder nah beieinander. Gefischt wurde",
+      "text_anchor": "Beim Fischer sind Wort und Tätigkeit wieder nah beieinander. Gefischt wurde",
+      "label": {
+        "title": "FISCHER",
+        "subtitle": "Am Meer und im Binnenland"
+      }
+    },
+    {
+      "id": "preview-060",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-2652362.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "auf See, an Küsten und in\nBinnengewässern. Der Name gehört also",
+      "text_anchor": "auf See, an Küsten und in Binnengewässern. Der Name gehört also"
+    },
+    {
+      "id": "preview-061",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-10496570.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "nicht nur an den Strand. Auch ein Fluss oder ein See",
+      "text_anchor": "nicht nur an den Strand. Auch ein Fluss oder ein See"
+    },
+    {
+      "id": "preview-062",
+      "type": "clip",
+      "duration_s": 4.9,
+      "src": "assets/footage/pexels-4440938.mp4",
+      "trim_start_s": 0.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "passt zu diesem Berufsbild. Ob\nwir Wellen sehen oder ein stilles",
+      "text_anchor": "passt zu diesem Berufsbild. Ob wir Wellen sehen oder ein stilles"
+    },
+    {
+      "id": "preview-063",
+      "type": "clip",
+      "duration_s": 3.866667,
+      "src": "assets/footage/pexels-2652362.mp4",
+      "trim_start_s": 5.5,
+      "playback_rate": 1,
+      "grade": "warm",
+      "caption": "Ufer: Entscheidend ist die Tätigkeit,\nnicht unsere erste Urlaubserinnerung.",
+      "text_anchor": "Ufer: Entscheidend ist die Tätigkeit, nicht unsere erste Urlaubserinnerung."
+    }
+  ]
+}

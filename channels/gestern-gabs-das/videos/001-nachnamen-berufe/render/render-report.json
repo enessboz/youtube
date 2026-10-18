@@ -1,0 +1,23 @@
+{
+  "renderer": "native FFmpeg fallback",
+  "reason": "Remotion bundled Windows compositor access violation3221225477; Html5Video test succeeded but frame seeking too slow for full preview",
+  "resolution": "1920x1080",
+  "fps": 30,
+  "audio_streams": 0,
+  "codec": "h264",
+  "crf": 26,
+  "transition": "0.10s dip on each side of cuts (not Remotion crossfade)",
+  "duration_s": 276.1666666666667,
+  "shots": 63,
+  "bytes": 102222523,
+  "file": "preview-stock-1080p.mp4",
+  "checks": [
+    "full FFmpeg decode completed",
+    "caption safe width checked at actual font size",
+    "no audio stream mapped"
+  ],
+  "limitations": [
+    "Static labels and engraving PiP over moving footage; no label spring animation in this backend.",
+    "Caption timing estimated from word counts; final voiceover alignment pending."
+  ]
+}

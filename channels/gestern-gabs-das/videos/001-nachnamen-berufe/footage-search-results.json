@@ -1,0 +1,777 @@
+{
+  "mueller": [
+    {
+      "query": "flour mill",
+      "results": [
+        {
+          "ref": "pexels:35794910",
+          "provider": "pexels",
+          "id": 35794910,
+          "duration": 25,
+          "page": "https://www.pexels.com/video/rural-mill-worker-processing-grains-indoors-35794910/",
+          "author": "Zomlien Neihsiel",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/35794910/15175653_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/35794910/pexels-photo-35794910.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:19675231",
+          "provider": "pexels",
+          "id": 19675231,
+          "duration": 19,
+          "page": "https://www.pexels.com/video/drone-shot-of-grain-elevator-19675231/",
+          "author": "Eric Skaggs",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/19675231/19675231-hd_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/19675231/aerial-agricultural-agriculture-amish-19675231.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:19675240",
+          "provider": "pexels",
+          "id": 19675240,
+          "duration": 19,
+          "page": "https://www.pexels.com/video/overhead-shot-of-grain-silo-19675240/",
+          "author": "Eric Skaggs",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/19675240/19675240-hd_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/19675240/aerial-agricultural-agriculture-amish-19675240.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:19675235",
+          "provider": "pexels",
+          "id": 19675235,
+          "duration": 17,
+          "page": "https://www.pexels.com/video/aerial-shot-of-a-rural-grain-elevator-19675235/",
+          "author": "Eric Skaggs",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/19675235/19675235-hd_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/19675235/aerial-agricultural-agriculture-amish-19675235.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:29853437",
+          "provider": "pexels",
+          "id": 29853437,
+          "duration": 9,
+          "page": "https://www.pexels.com/video/traditional-grain-milling-in-action-29853437/",
+          "author": "Sini Ko",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/29853437/12819252_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/29853437/pexels-photo-29853437.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:6676510",
+          "provider": "pexels",
+          "id": 6676510,
+          "duration": 15,
+          "page": "https://www.pexels.com/video/drone-footage-of-an-abandoned-building-6676510/",
+          "author": "Juan Manuel Ferraro",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/6676510/6676510-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/6676510/pexels-photo-6676510.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    },
+    {
+      "query": "water wheel",
+      "results": [
+        {
+          "ref": "pexels:855416",
+          "provider": "pexels",
+          "id": 855416,
+          "duration": 14,
+          "page": "https://www.pexels.com/video/watermill-rotating-855416/",
+          "author": "Pixabay",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/855416/855416-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/855416/free-video-855416.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:19740011",
+          "provider": "pexels",
+          "id": 19740011,
+          "duration": 15,
+          "page": "https://www.pexels.com/video/french-valley-19740011/",
+          "author": "Tamer Selim",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/19740011/19740011-hd_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/19740011/french-valley-19740011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:37678554",
+          "provider": "pexels",
+          "id": 37678554,
+          "duration": 15,
+          "page": "https://www.pexels.com/video/small-water-wheel-in-a-stream-on-a-sunny-day-37678554/",
+          "author": "Eleonora Vokueva",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/37678554/15974556_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/37678554/pexels-photo-37678554.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:37677773",
+          "provider": "pexels",
+          "id": 37677773,
+          "duration": 7,
+          "page": "https://www.pexels.com/video/rustic-water-wheel-in-tranquil-stream-setting-37677773/",
+          "author": "Eleonora Vokueva",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/37677773/15974231_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/37677773/pexels-photo-37677773.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:10901540",
+          "provider": "pexels",
+          "id": 10901540,
+          "duration": 15,
+          "page": "https://www.pexels.com/video/agricultural-machinery-in-close-up-10901540/",
+          "author": "khanhhoangminh",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/10901540/10901540-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/10901540/pexels-photo-10901540.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:39353425",
+          "provider": "pexels",
+          "id": 39353425,
+          "duration": 11,
+          "page": "https://www.pexels.com/video/rustic-water-wheel-in-motion-39353425/",
+          "author": "DΛVΞ GΛRCIΛ",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/39353425/16750562_1920_1080_59fps.mp4",
+          "thumb": "https://images.pexels.com/videos/39353425/pexels-photo-39353425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    },
+    {
+      "query": "grain harvest",
+      "results": [
+        {
+          "ref": "pexels:39427611",
+          "provider": "pexels",
+          "id": 39427611,
+          "duration": 29,
+          "page": "https://www.pexels.com/video/efficient-wheat-harvesting-with-combine-harvester-39427611/",
+          "author": "Stephen Scott",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/39427611/16789725_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/39427611/agriculture-combine-combine-harvester-harvest-39427611.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:39427619",
+          "provider": "pexels",
+          "id": 39427619,
+          "duration": 46,
+          "page": "https://www.pexels.com/video/harvesting-wheat-with-combine-harvester-39427619/",
+          "author": "Stephen Scott",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/39427619/16789733_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/39427619/agriculture-combine-combine-harvester-harvest-39427619.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:38812736",
+          "provider": "pexels",
+          "id": 38812736,
+          "duration": 18,
+          "page": "https://www.pexels.com/video/combine-harvester-unloading-wheat-into-truck-38812736/",
+          "author": "Alex Rusin",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/38812736/16497715_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/38812736/pexels-photo-38812736.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:34293505",
+          "provider": "pexels",
+          "id": 34293505,
+          "duration": 11,
+          "page": "https://www.pexels.com/video/combine-harvester-in-wheat-field-during-harvest-34293505/",
+          "author": "Wolfgang Weiser",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/34293505/14528716_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/34293505/agronomy-barley-combine-harvester-cornfield-34293505.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:13125056",
+          "provider": "pexels",
+          "id": 13125056,
+          "duration": 20,
+          "page": "https://www.pexels.com/video/harvester-on-field-13125056/",
+          "author": "Jozef Papp",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/13125056/13125056-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/13125056/pexels-photo-13125056.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:32973120",
+          "provider": "pexels",
+          "id": 32973120,
+          "duration": 27,
+          "page": "https://www.pexels.com/video/aerial-view-of-combine-harvester-in-wheat-field-32973120/",
+          "author": "Benjamin Drotos",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/32973120/14052591_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/32973120/combine-harvester-32973120.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    }
+  ],
+  "schmidt": [
+    {
+      "query": "blacksmith forging",
+      "results": [
+        {
+          "ref": "pexels:31638148",
+          "provider": "pexels",
+          "id": 31638148,
+          "duration": 8,
+          "page": "https://www.pexels.com/video/blacksmith-hammering-metal-in-workshop-31638148/",
+          "author": "mg shotz",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/31638148/13478951_1920_1080_24fps.mp4",
+          "thumb": "https://images.pexels.com/videos/31638148/pexels-photo-31638148.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:38103748",
+          "provider": "pexels",
+          "id": 38103748,
+          "duration": 15,
+          "page": "https://www.pexels.com/video/blacksmith-hammering-metal-on-anvil-block-38103748/",
+          "author": "SHOX ART",
+          "width": 1440,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/38103748/16178009_1440_1080_60fps.mp4",
+          "thumb": "https://images.pexels.com/videos/38103748/pexels-photo-38103748.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:5846397",
+          "provider": "pexels",
+          "id": 5846397,
+          "duration": 10,
+          "page": "https://www.pexels.com/video/hammer-rack-in-smithy-workshop-5846397/",
+          "author": "Tima Miroshnichenko",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/5846397/5846397-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/5846397/pexels-photo-5846397.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:38103754",
+          "provider": "pexels",
+          "id": 38103754,
+          "duration": 22,
+          "page": "https://www.pexels.com/video/traditional-blacksmith-forging-metal-outdoors-38103754/",
+          "author": "SHOX ART",
+          "width": 1440,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/38103754/16178079_1440_1080_60fps.mp4",
+          "thumb": "https://images.pexels.com/videos/38103754/pexels-photo-38103754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:38103752",
+          "provider": "pexels",
+          "id": 38103752,
+          "duration": 11,
+          "page": "https://www.pexels.com/video/blacksmith-hammering-hot-iron-on-anvil-38103752/",
+          "author": "SHOX ART",
+          "width": 1440,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/38103752/16178027_1440_1080_60fps.mp4",
+          "thumb": "https://images.pexels.com/videos/38103752/pexels-photo-38103752.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:5846389",
+          "provider": "pexels",
+          "id": 5846389,
+          "duration": 22,
+          "page": "https://www.pexels.com/video/person-forging-metal-5846389/",
+          "author": "Tima Miroshnichenko",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/5846389/5846389-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/5846389/pexels-photo-5846389.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    },
+    {
+      "query": "hammer anvil",
+      "results": [
+        {
+          "ref": "pexels:31638148",
+          "provider": "pexels",
+          "id": 31638148,
+          "duration": 8,
+          "page": "https://www.pexels.com/video/blacksmith-hammering-metal-in-workshop-31638148/",
+          "author": "mg shotz",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/31638148/13478951_1920_1080_24fps.mp4",
+          "thumb": "https://images.pexels.com/videos/31638148/pexels-photo-31638148.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:39648875",
+          "provider": "pexels",
+          "id": 39648875,
+          "duration": 10,
+          "page": "https://www.pexels.com/video/traditional-metalworking-in-action-closeup-39648875/",
+          "author": "Evlow Photography",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/39648875/16902970_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/39648875/pexels-photo-39648875.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:38103748",
+          "provider": "pexels",
+          "id": 38103748,
+          "duration": 15,
+          "page": "https://www.pexels.com/video/blacksmith-hammering-metal-on-anvil-block-38103748/",
+          "author": "SHOX ART",
+          "width": 1440,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/38103748/16178009_1440_1080_60fps.mp4",
+          "thumb": "https://images.pexels.com/videos/38103748/pexels-photo-38103748.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:4186969",
+          "provider": "pexels",
+          "id": 4186969,
+          "duration": 8,
+          "page": "https://www.pexels.com/video/a-person-hammering-a-heated-metal-4186969/",
+          "author": "CESAR CASANOVA",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/4186969/4186969-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/4186969/herrero-hierro-trabajo-4186969.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:38104095",
+          "provider": "pexels",
+          "id": 38104095,
+          "duration": 44,
+          "page": "https://www.pexels.com/video/historical-blacksmith-forging-iron-outdoors-38104095/",
+          "author": "SHOX ART",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/38104095/16178442_1920_1080_24fps.mp4",
+          "thumb": "https://images.pexels.com/videos/38104095/pexels-photo-38104095.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:38103753",
+          "provider": "pexels",
+          "id": 38103753,
+          "duration": 10,
+          "page": "https://www.pexels.com/video/medieval-blacksmiths-demonstrating-metalworking-38103753/",
+          "author": "SHOX ART",
+          "width": 1440,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/38103753/16178000_1440_1080_60fps.mp4",
+          "thumb": "https://images.pexels.com/videos/38103753/pexels-photo-38103753.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    }
+  ],
+  "schneider": [
+    {
+      "query": "tailor cutting fabric",
+      "results": [
+        {
+          "ref": "pexels:4621701",
+          "provider": "pexels",
+          "id": 4621701,
+          "duration": 16,
+          "page": "https://www.pexels.com/video/a-woman-cutting-a-piece-of-fabric-with-scissors-4621701/",
+          "author": "cottonbro studio",
+          "width": 2048,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/4621701/4621701-hd_2048_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/4621701/pexels-photo-4621701.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:6765465",
+          "provider": "pexels",
+          "id": 6765465,
+          "duration": 29,
+          "page": "https://www.pexels.com/video/a-person-cutting-a-fabric-6765465/",
+          "author": "Tima Miroshnichenko",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/6765465/6765465-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/6765465/pexels-photo-6765465.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:6765471",
+          "provider": "pexels",
+          "id": 6765471,
+          "duration": 28,
+          "page": "https://www.pexels.com/video/an-elderly-man-cutting-a-black-fabric-6765471/",
+          "author": "Tima Miroshnichenko",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/6765471/6765471-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/6765471/pexels-photo-6765471.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:6459918",
+          "provider": "pexels",
+          "id": 6459918,
+          "duration": 12,
+          "page": "https://www.pexels.com/video/tailor-cutting-black-fabric-6459918/",
+          "author": "Pavel Danilyuk",
+          "width": 2560,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/6459918/6459918-uhd_2560_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/6459918/pexels-photo-6459918.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    },
+    {
+      "query": "sewing machine",
+      "results": [
+        {
+          "ref": "pexels:6459913",
+          "provider": "pexels",
+          "id": 6459913,
+          "duration": 12,
+          "page": "https://www.pexels.com/video/close-up-in-sewing-machines-6459913/",
+          "author": "Pavel Danilyuk",
+          "width": 2560,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/6459913/6459913-uhd_2560_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/6459913/pexels-photo-6459913.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:7776736",
+          "provider": "pexels",
+          "id": 7776736,
+          "duration": 16,
+          "page": "https://www.pexels.com/video/person-using-a-sewing-machine-7776736/",
+          "author": "Ron Lach",
+          "width": 2048,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/7776736/7776736-hd_2048_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/7776736/pexels-photo-7776736.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:4162842",
+          "provider": "pexels",
+          "id": 4162842,
+          "duration": 60,
+          "page": "https://www.pexels.com/video/a-person-sewing-a-face-mask-4162842/",
+          "author": "Romana",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/4162842/4162842-hd_1920_1080_24fps.mp4",
+          "thumb": "https://images.pexels.com/videos/4162842/chirurgicka-maska-karantena-koronavirus-maska-4162842.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:4622327",
+          "provider": "pexels",
+          "id": 4622327,
+          "duration": 33,
+          "page": "https://www.pexels.com/video/a-man-is-working-on-a-sewing-machine-4622327/",
+          "author": "cottonbro studio",
+          "width": 2048,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/4622327/4622327-hd_2048_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/4622327/pexels-photo-4622327.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:6460113",
+          "provider": "pexels",
+          "id": 6460113,
+          "duration": 11,
+          "page": "https://www.pexels.com/video/woman-sewing-cloth-with-machine-6460113/",
+          "author": "Pavel Danilyuk",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/6460113/6460113-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/6460113/buttons-chalk-clothing-fitting-6460113.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:37676247",
+          "provider": "pexels",
+          "id": 37676247,
+          "duration": 17,
+          "page": "https://www.pexels.com/video/vintage-sewing-machine-stitching-pink-fabric-37676247/",
+          "author": "Kowsar  Ahmed",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/37676247/15973476_1920_1080_60fps.mp4",
+          "thumb": "https://images.pexels.com/videos/37676247/pexels-photo-37676247.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    }
+  ],
+  "fischer": [
+    {
+      "query": "fisherman net",
+      "results": [
+        {
+          "ref": "pexels:4440938",
+          "provider": "pexels",
+          "id": 4440938,
+          "duration": 17,
+          "page": "https://www.pexels.com/video/a-group-of-people-standing-on-the-beach-with-a-net-4440938/",
+          "author": "cottonbro studio",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/4440938/4440938-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/4440938/pexels-photo-4440938.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:4440945",
+          "provider": "pexels",
+          "id": 4440945,
+          "duration": 22,
+          "page": "https://www.pexels.com/video/a-group-of-people-standing-on-the-beach-with-a-fishing-net-4440945/",
+          "author": "cottonbro studio",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/4440945/4440945-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/4440945/pexels-photo-4440945.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:18473294",
+          "provider": "pexels",
+          "id": 18473294,
+          "duration": 31,
+          "page": "https://www.pexels.com/video/fishing-in-pond-18473294/",
+          "author": "Startup MrParag",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/18473294/18473294-hd_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/18473294/farmer-fish-fisherman-fishing-18473294.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:2652362",
+          "provider": "pexels",
+          "id": 2652362,
+          "duration": 16,
+          "page": "https://www.pexels.com/video/small-fishing-boat-on-calm-waters-2652362/",
+          "author": "Nino Souza",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/2652362/2652362-hd_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/2652362/free-video-2652362.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:17091785",
+          "provider": "pexels",
+          "id": 17091785,
+          "duration": 8,
+          "page": "https://www.pexels.com/video/a-man-sitting-on-the-sand-with-a-bunch-of-hair-17091785/",
+          "author": "manas patra",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/17091785/17091785-hd_1920_1080_50fps.mp4",
+          "thumb": "https://images.pexels.com/videos/17091785/pexels-photo-17091785.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:17226133",
+          "provider": "pexels",
+          "id": 17226133,
+          "duration": 7,
+          "page": "https://www.pexels.com/video/fishing-nets-on-the-water-near-a-pier-17226133/",
+          "author": "Manoo Media",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/17226133/17226133-hd_1920_1080_24fps.mp4",
+          "thumb": "https://images.pexels.com/videos/17226133/fishnet-net-17226133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    },
+    {
+      "query": "fishing boat",
+      "results": [
+        {
+          "ref": "pexels:10496570",
+          "provider": "pexels",
+          "id": 10496570,
+          "duration": 28,
+          "page": "https://www.pexels.com/video/aerial-view-on-trawler-on-sea-10496570/",
+          "author": "Pok Rie",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/10496570/10496570-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/10496570/pexels-photo-10496570.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:2652362",
+          "provider": "pexels",
+          "id": 2652362,
+          "duration": 16,
+          "page": "https://www.pexels.com/video/small-fishing-boat-on-calm-waters-2652362/",
+          "author": "Nino Souza",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/2652362/2652362-hd_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/2652362/free-video-2652362.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:30810367",
+          "provider": "pexels",
+          "id": 30810367,
+          "duration": 13,
+          "page": "https://www.pexels.com/video/serene-harbor-scene-with-docked-fishing-boats-30810367/",
+          "author": "Eren Ataselim",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/30810367/13177795_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/30810367/boat-mountain-port-rocky-30810367.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:27960037",
+          "provider": "pexels",
+          "id": 27960037,
+          "duration": 13,
+          "page": "https://www.pexels.com/video/fishing-27960037/",
+          "author": "Manoo Media",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/27960037/12273623_1920_1080_60fps.mp4",
+          "thumb": "https://images.pexels.com/videos/27960037/catching-fish-fisherman-fishing-boat-fishing-boats-27960037.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:4788511",
+          "provider": "pexels",
+          "id": 4788511,
+          "duration": 19,
+          "page": "https://www.pexels.com/video/underwater-photography-of-marine-life-4788511/",
+          "author": "Humayun Kabir",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/4788511/4788511-hd_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/4788511/pexels-photo-4788511.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:19678702",
+          "provider": "pexels",
+          "id": 19678702,
+          "duration": 19,
+          "page": "https://www.pexels.com/video/a-man-in-a-small-boat-on-the-water-19678702/",
+          "author": "Manoo Media",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/19678702/19678702-hd_1920_1080_24fps.mp4",
+          "thumb": "https://images.pexels.com/videos/19678702/pexels-photo-19678702.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    }
+  ],
+  "hook": [
+    {
+      "query": "old village street",
+      "results": [
+        {
+          "ref": "pexels:27987395",
+          "provider": "pexels",
+          "id": 27987395,
+          "duration": 28,
+          "page": "https://www.pexels.com/video/malatya-arapgir-koru-koyu-evleri-27987395/",
+          "author": "Serkan  Gönültaş",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/27987395/12282023_1920_1080_60fps.mp4",
+          "thumb": "https://images.pexels.com/videos/27987395/4k-video-gopro-house-malatya-27987395.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:35378802",
+          "provider": "pexels",
+          "id": 35378802,
+          "duration": 34,
+          "page": "https://www.pexels.com/video/charming-empty-medieval-stone-village-35378802/",
+          "author": "niko Tancredi",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/35378802/14989936_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/35378802/pexels-photo-35378802.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:34038695",
+          "provider": "pexels",
+          "id": 34038695,
+          "duration": 17,
+          "page": "https://www.pexels.com/video/charming-village-street-scene-in-summer-34038695/",
+          "author": "Özgür Sürmeli",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/34038695/14436082_1920_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/34038695/4k-34038695.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    }
+  ],
+  "barrels": [
+    {
+      "query": "wooden wine barrels cellar",
+      "results": [
+        {
+          "ref": "pexels:5537827",
+          "provider": "pexels",
+          "id": 5537827,
+          "duration": 13,
+          "page": "https://www.pexels.com/video/a-person-touching-wood-barrels-inside-a-winery-5537827/",
+          "author": "cottonbro studio",
+          "width": 2048,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/5537827/5537827-hd_2048_1080_25fps.mp4",
+          "thumb": "https://images.pexels.com/videos/5537827/pexels-photo-5537827.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:857092",
+          "provider": "pexels",
+          "id": 857092,
+          "duration": 33,
+          "page": "https://www.pexels.com/video/vineyard-production-857092/",
+          "author": "Vimeo",
+          "width": 1280,
+          "height": 720,
+          "file": "https://videos.pexels.com/video-files/857092/857092-hd_1280_720_24fps.mp4",
+          "thumb": "https://images.pexels.com/videos/857092/free-video-857092.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:6356810",
+          "provider": "pexels",
+          "id": 6356810,
+          "duration": 16,
+          "page": "https://www.pexels.com/video/a-bucket-of-corks-6356810/",
+          "author": "Curtis Adams",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/6356810/6356810-hd_1920_1080_30fps.mp4",
+          "thumb": "https://images.pexels.com/videos/6356810/pexels-photo-6356810.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        },
+        {
+          "ref": "pexels:10040032",
+          "provider": "pexels",
+          "id": 10040032,
+          "duration": 11,
+          "page": "https://www.pexels.com/video/barrels-of-tequila-inside-a-warehouse-10040032/",
+          "author": "Los Muertos Crew",
+          "width": 1920,
+          "height": 1080,
+          "file": "https://videos.pexels.com/video-files/10040032/10040032-hd_1920_1080_24fps.mp4",
+          "thumb": "https://images.pexels.com/videos/10040032/agave-jalisco-mexico-tequila-10040032.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        }
+      ]
+    }
+  ]
+}
