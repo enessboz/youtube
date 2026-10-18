@@ -23,10 +23,11 @@ Kullanım başına oran sayfada: v2/v3 **$0,08 / 1.000 karakter**, Flash **$0,04
 |---|---|---|---|
 | Creator (275K) | $22 | $5 | Yetmez: ayda ~9 video. Ses seçimi ve ilk 2-3 video için uygun. |
 | **Pro (1,238M)** | **$99** | **$23** | 6 video/hafta için yeterli, kalan pay yeniden üretime. **Önerilen.** |
-| Kullanım başına (v2/v3) | ≈ $65 | $15 | 810K × $0,08/1K; hesapta kullanım başına seçeneğin kullanılabilirliğini doğrula |
+| **API, kullandığın kadar öde (v2/v3)** | **≈ $65** | **$15** | Doğrulandı (elevenlabs.io/pricing/api): $0,08 / 1K karakter, taahhüt yok, USD faturalanır. Pro ile aynı oran ($80/1M), ama sabit ücret yok. |
+| API, kullandığın kadar öde (Flash/Turbo) | ≈ $32 | $7,5 | Doğrulandı: $0,04 / 1K karakter; daha az doğal |
 | Flash ile Pro | $99 | — | Karakter payı iki katı ama daha az doğal; 55+ kitlede dinleyerek karşılaştır |
 
-**Öneri:** ilk ay Creator (ses seçimi + 2-3 test videosu), kanallar 6 video/hafta temposuna gelince Pro.
+**Öneri (güncel):** abonelik yerine **API'de kullandığın kadar öde**. Pro'nun etkin oranı da $80/1M karakter olduğu için, 1,238M karakterin altında kullanıyorsak ($99'ı doldurmuyorsak) PAYG her zaman eşit veya ucuz. Bir video ≈ $2-2,5, 60 sn'lik ses testi ≈ $0,08. Doğrulanması gerekenler: minimum harcama/ön ödeme, PAYG'de ticari kullanım hakkı ve Voice Design erişimi. Bunlardan biri kapalıysa Starter ($1 ilk ay) ile başla.
 
 ## Ses alternatifleri (ucuz seçenekler) — aylık ≈ 810K karakter için
 Doğrulanmış = resmi sayfada gördüm; doğrulanmadı = hafızamdan veya üçüncü taraf kaynaktan.
