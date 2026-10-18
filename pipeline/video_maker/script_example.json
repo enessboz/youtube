@@ -1,0 +1,11 @@
+{
+  "title": "Enflasyonda Paran Neden Erir",
+  "lang": "tr",
+  "scenes": [
+    {"narration": "Bir ekmek on yıl önce kaç liraydı? Peki bugün? Fiyatlar yükselirken paranın değeri sessizce azalır.", "query": "bakery bread"},
+    {"narration": "Buna enflasyon deniyoruz. Yani aynı parayla daha az şey satın alabilmek.", "query": "supermarket shopping"},
+    {"narration": "Maaşınız artsa bile fiyatlar daha hızlı artıyorsa, gerçekte daha fakirleşirsiniz.", "query": "counting money coins"},
+    {"narration": "Bu yüzden birikimi yastık altında tutmak yerine, değerini koruyacak araçları anlamak çok önemli.", "query": "piggy bank savings"},
+    {"narration": "Bu videoda yatırım tavsiyesi vermiyoruz; sadece mantığı anlatıyoruz. Karar vermeden önce mutlaka kendi araştırmanızı yapın.", "query": "person reading notes desk"}
+  ]
+}
