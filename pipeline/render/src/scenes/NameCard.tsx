@@ -87,10 +87,10 @@ export const NameCard: React.FC<{theme: Theme; scene: NameCardScene}> = ({theme,
           <div
             style={{
               position: 'absolute',
-              right: 60,
-              top: 190,
-              width: 560,
-              height: 580,
+              right: 110,
+              top: 186,
+              width: 480,
+              height: 600,
               opacity: pic,
               transform: `rotate(1.2deg) translateY(${(1 - pic) * 30}px)`,
               boxShadow: '0 12px 30px rgba(34,48,60,0.25)',
@@ -98,7 +98,7 @@ export const NameCard: React.FC<{theme: Theme; scene: NameCardScene}> = ({theme,
               padding: 14,
             }}
           >
-            <div style={{width: '100%', height: 510, overflow: 'hidden', background: '#EFE6D0'}}>
+            <div style={{width: '100%', height: 536, overflow: 'hidden', background: '#EFE6D0'}}>
               <Img
                 src={staticFile(scene.image!)}
                 style={{
