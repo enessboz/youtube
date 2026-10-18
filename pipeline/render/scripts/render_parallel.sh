@@ -15,7 +15,7 @@ run_part() {
   i=$1; a=$((i*STEP)); b=$(( (i+1)*STEP-1 )); [ $b -ge $TOTAL ] && b=$((TOTAL-1))
   [ $a -gt $b ] && return 0
   [ -s "$TMP/part$i.ok" ] && return 0
-  node "$HERE/render.mjs" "$CH" "$VID" --frames $a-$b --out "$TMP/part$i.mp4" > "$TMP/log$i.txt" 2>&1 && echo ok > "$TMP/part$i.ok"
+  node "$HERE/render.mjs" "$CH" "$VID" --frames $a-$b --out "$TMP/part$i.mp4" > "$TMP/log$i.txt" 2>&1 && echo ok > "$TMP/part$i.ok"; rm -rf "$HERE/../../../.cache/render-public-$a-$b" "$TMP"/remotion-webpack-bundle-*
 }
 export -f run_part; export HERE CH VID STEP TOTAL TMP
 seq 0 $((N-1)) | xargs -P $PAR -I{} bash -c 'run_part {}'

@@ -53,7 +53,7 @@ for (const [from, to] of Object.entries(fontMap)) {
   fs.copyFileSync(p, path.join(pub, 'fonts', to));
 }
 const assets = path.join(videoDir, 'assets');
-if (fs.existsSync(assets)) fs.cpSync(assets, path.join(pub, 'assets'), {recursive: true});
+if (fs.existsSync(assets)) fs.cpSync(assets, path.join(pub, 'assets'), {recursive: true, filter: (src) => !/[\\/]footage$/.test(src)});
 
 const browserExecutable =
   process.env.REMOTION_BROWSER ||
@@ -82,6 +82,7 @@ if (opt('--still')) {
     browserExecutable,
     frameRange: fr ? fr.split('-').map(Number) : null,
     muted: true,
+    crf: 23,
     offthreadVideoCacheSizeInBytes: 400 * 1024 * 1024,
     timeoutInMilliseconds: 120000,
     concurrency: Number(process.env.RENDER_CONCURRENCY ?? 4),
