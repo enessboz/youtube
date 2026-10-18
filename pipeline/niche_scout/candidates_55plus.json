@@ -1,0 +1,42 @@
+{
+  "markets": {
+    "es": ["MX", "ES"],
+    "pt": ["BR"],
+    "de": ["DE"],
+    "fr": ["FR"],
+    "it": ["IT"],
+    "en": ["GB", "AU"]
+  },
+  "niches": [
+    {"niche": "Segunda Guerra Mundial / historia moderna",
+     "queries": {"es": ["segunda guerra mundial documental"], "pt": ["segunda guerra mundial documentário"], "de": ["zweiter weltkrieg dokumentation"], "fr": ["seconde guerre mondiale documentaire"], "it": ["seconda guerra mondiale documentario"], "en": ["world war 2 documentary"]}},
+    {"niche": "Historia antigua e imperios",
+     "queries": {"es": ["imperio romano documental"], "pt": ["império romano documentário"], "de": ["römisches reich dokumentation"], "fr": ["empire romain documentaire"], "it": ["impero romano documentario"], "en": ["roman empire documentary"]}},
+    {"niche": "Nostalgia: décadas 60-80 (música, TV, infancia)",
+     "queries": {"es": ["nostalgia años 70 80 recuerdos"], "pt": ["nostalgia anos 70 80 lembranças"], "de": ["nostalgie 70er 80er erinnerungen"], "fr": ["nostalgie années 70 80 souvenirs"], "it": ["nostalgia anni 70 80 ricordi"], "en": ["nostalgia 1970s 1980s memories"]}},
+    {"niche": "Biografías y cine/estrellas clásicas",
+     "queries": {"es": ["biografía estrella cine clásico"], "pt": ["biografia estrela cinema clássico"], "de": ["biografie filmstar klassiker"], "fr": ["biographie star cinéma classique"], "it": ["biografia diva cinema classico"], "en": ["classic hollywood star biography"]}},
+    {"niche": "Trenes, barcos y vehículos clásicos",
+     "queries": {"es": ["trenes historia documental"], "pt": ["trens ferrovias história documentário"], "de": ["eisenbahn dokumentation"], "fr": ["trains histoire documentaire"], "it": ["treni storia documentario"], "en": ["railway journeys documentary"]}},
+    {"niche": "Jardinería y huerto",
+     "queries": {"es": ["huerto casero jardinería consejos"], "pt": ["horta caseira jardinagem dicas"], "de": ["gemüsegarten anlegen tipps"], "fr": ["potager jardinage conseils"], "it": ["orto giardinaggio consigli"], "en": ["vegetable garden tips beginners"]}},
+    {"niche": "Cocina tradicional y recetas de la abuela",
+     "queries": {"es": ["recetas tradicionales de la abuela"], "pt": ["receitas tradicionais da vovó"], "de": ["omas rezepte traditionell"], "fr": ["recettes de grand-mère traditionnelles"], "it": ["ricette della nonna tradizionali"], "en": ["traditional grandma recipes"]}},
+    {"niche": "Trucos del hogar y reparaciones",
+     "queries": {"es": ["trucos para el hogar limpieza"], "pt": ["truques para casa limpeza"], "de": ["haushaltstipps hausmittel"], "fr": ["astuces maison nettoyage"], "it": ["trucchi casa pulizia"], "en": ["household tips and tricks"]}},
+    {"niche": "Jubilación: ahorro y vida tras el retiro",
+     "queries": {"es": ["jubilación consejos vivir retiro"], "pt": ["aposentadoria dicas vida depois"], "de": ["rente ruhestand tipps"], "fr": ["retraite conseils vie après"], "it": ["pensione consigli vita dopo"], "en": ["retirement lifestyle tips"]}},
+    {"niche": "Viajes, cruceros y ciudades",
+     "queries": {"es": ["viaje en crucero ciudades historia"], "pt": ["viagem cruzeiro cidades história"], "de": ["kreuzfahrt reise städte"], "fr": ["croisière voyage villes histoire"], "it": ["crociera viaggio città storia"], "en": ["travel documentary cities history"]}},
+    {"niche": "Naturaleza, aves y animales",
+     "queries": {"es": ["documental naturaleza animales"], "pt": ["documentário natureza animais"], "de": ["tierdokumentation natur"], "fr": ["documentaire nature animaux"], "it": ["documentario natura animali"], "en": ["nature documentary animals"]}},
+    {"niche": "Relatos históricos para dormir",
+     "queries": {"es": ["historia para dormir relajante"], "pt": ["história para dormir relaxante"], "de": ["geschichte zum einschlafen"], "fr": ["histoire pour s'endormir"], "it": ["storia per addormentarsi"], "en": ["history to fall asleep to"]}},
+    {"niche": "Manualidades, tejido y costura",
+     "queries": {"es": ["tejido crochet costura tutorial"], "pt": ["crochê costura tutorial"], "de": ["stricken häkeln nähen anleitung"], "fr": ["tricot crochet couture tutoriel"], "it": ["uncinetto cucito tutorial"], "en": ["knitting sewing tutorial"]}},
+    {"niche": "Tecnología para mayores",
+     "queries": {"es": ["tecnología para personas mayores celular"], "pt": ["tecnologia para idosos celular"], "de": ["smartphone für senioren erklärt"], "fr": ["smartphone pour seniors tutoriel"], "it": ["smartphone per anziani tutorial"], "en": ["technology for seniors tutorial"]}},
+    {"niche": "Genealogía e historia local",
+     "queries": {"es": ["genealogía árbol genealógico historia familiar"], "pt": ["genealogia árvore genealógica história"], "de": ["ahnenforschung familiengeschichte"], "fr": ["généalogie histoire de famille"], "it": ["genealogia storia famiglia"], "en": ["genealogy family history research"]}}
+  ]
+}

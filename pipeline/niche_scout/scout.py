@@ -160,22 +160,52 @@ def score(rows, now=None):
     }
 
 
-def estimate_quota(candidates, regions):
-    return sum(len(c["queries"]) * 100 + 4 for c in candidates) * len(regions)
+def load_jobs(path, default_lang, default_regions, only_lang=None):
+    """İki biçimi destekler: düz liste (tek dil) veya {markets, niches} (çok dilli)."""
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    jobs = []
+    if isinstance(data, list):
+        for c in data:
+            for region in default_regions:
+                jobs.append({"niche": c["niche"], "queries": c["queries"], "lang": default_lang, "region": region})
+    else:
+        for n in data["niches"]:
+            for lang, queries in n["queries"].items():
+                if only_lang and lang not in only_lang:
+                    continue
+                for region in data["markets"].get(lang, []):
+                    jobs.append({"niche": n["niche"], "queries": queries, "lang": lang, "region": region})
+    return jobs
+
+
+def estimate_quota(jobs):
+    return sum(len(j["queries"]) * 100 + 4 for j in jobs)
 
 
 def write_report(results, out_dir):
     results.sort(key=lambda r: r["score"], reverse=True)
-    fields = ["niche", "region", "score", "n_videos", "n_channels", "median_views",
+    fields = ["niche", "lang", "region", "score", "n_videos", "n_channels", "median_views",
               "small_hits", "young_hits", "big_share"]
     with open(os.path.join(out_dir, "results.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
         w.writerows(results)
     lines = ["# Niş taraması sonuçları\n",
-             "Puan sezgiseldir; son karar için örnek videoları elle incele.\n"]
+             "Puan sezgiseldir; son karar için örnek videoları elle incele. "
+             "Genel API izleyici yaşını vermez; 55+ uyumu konu seçiminden ve örnek videoların "
+             "içeriğinden/yorumlarından elle doğrulanmalıdır.\n"]
+    for title, key in (("Niş ortalaması", "niche"), ("Pazar ortalaması", "market")):
+        groups = {}
+        for r in results:
+            k = r[key] if key == "niche" else f"{r['lang']}-{r['region']}"
+            groups.setdefault(k, []).append(r["score"])
+        lines.append(f"## {title}")
+        for k, v in sorted(groups.items(), key=lambda kv: -statistics.mean(kv[1])):
+            lines.append(f"- {k}: {statistics.mean(v):.1f} ({len(v)} ölçüm)")
+        lines.append("")
     for r in results[:15]:
-        lines.append(f"## {r['niche']} — {r['region']} (puan {r['score']})")
+        lines.append(f"## {r['niche']} — {r['lang']}-{r['region']} (puan {r['score']})")
         lines.append(f"- medyan izlenme {r['median_views']:,}, küçük kanal vuruşu {r['small_hits']}, "
                      f"genç kanal vuruşu {r['young_hits']}, dev kanal payı {r['big_share']}")
         for t in r["top"]:
@@ -190,17 +220,18 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--candidates", required=True)
     ap.add_argument("--out", default="out")
-    ap.add_argument("--regions", default="MX,ES")
-    ap.add_argument("--lang", default="es")
+    ap.add_argument("--regions", default="MX,ES", help="Düz liste biçiminde kullanılacak ülkeler")
+    ap.add_argument("--lang", default="es", help="Düz liste biçiminde dil")
+    ap.add_argument("--only-lang", default="", help="Çok dilli dosyada sadece bu diller (virgüllü)")
     ap.add_argument("--days", type=int, default=365, help="Son kaç gün içinde yüklenen videolar")
+    ap.add_argument("--quota-budget", type=int, default=9000, help="Bu çalıştırmada harcanacak azami kota")
     ap.add_argument("--dry-run", action="store_true", help="Sadece kota tahmini yazdır")
     args = ap.parse_args()
 
-    with open(args.candidates, encoding="utf-8") as f:
-        candidates = json.load(f)
-    regions = [r.strip() for r in args.regions.split(",")]
-    est = estimate_quota(candidates, regions)
-    print(f"{len(candidates)} niş x {len(regions)} ülke; tahmini kota ≈ {est} birim (günlük limit 10.000)")
+    only = [x.strip() for x in args.only_lang.split(",") if x.strip()] or None
+    jobs = load_jobs(args.candidates, args.lang, [r.strip() for r in args.regions.split(",")], only)
+    est = estimate_quota(jobs)
+    print(f"{len(jobs)} iş (niş x pazar); tahmini kota ≈ {est} birim (günlük limit 10.000; önbellekteki işler kota harcamaz)")
     if args.dry_run:
         return 0
 
@@ -210,18 +241,23 @@ def main():
         return 2
     os.makedirs(args.out, exist_ok=True)
     client = Client(key, os.path.join(args.out, "cache"))
-    results = []
+    results, skipped = [], 0
     try:
-        for c in candidates:
-            for region in regions:
-                rows = collect(client, c["queries"], region, args.lang, args.days)
-                m = score(rows)
-                top = sorted(rows, key=lambda r: r["views"], reverse=True)[:3]
-                results.append({"niche": c["niche"], "region": region, "top": top, **m})
-                print(f"{c['niche']:<32} {region}  puan {m['score']:>5}  (kota harcanan: {client.spent})")
+        for j in jobs:
+            need = len(j["queries"]) * 100 + 4
+            if client.spent + need > args.quota_budget:
+                skipped += 1
+                continue
+            rows = collect(client, j["queries"], j["region"], j["lang"], args.days)
+            m = score(rows)
+            top = sorted(rows, key=lambda r: r["views"], reverse=True)[:3]
+            results.append({"niche": j["niche"], "lang": j["lang"], "region": j["region"], "top": top, **m})
+            print(f"{j['niche'][:34]:<34} {j['lang']}-{j['region']}  puan {m['score']:>5}  (kota: {client.spent})")
     except QuotaError as e:
         print(str(e), file=sys.stderr)
     write_report(results, args.out)
+    if skipped:
+        print(f"{skipped} iş bütçe nedeniyle atlandı; aynı komutu yarın tekrar çalıştır (önbellek devam ettirir).")
     print(f"Rapor: {os.path.join(args.out, 'report.md')}")
     return 0
 

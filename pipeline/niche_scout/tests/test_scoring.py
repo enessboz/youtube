@@ -33,8 +33,8 @@ class ScoringTest(unittest.TestCase):
         self.assertEqual(scout.parse_duration("garbage"), 0)
 
     def test_quota_estimate(self):
-        c = [{"niche": "a", "queries": ["x", "y"]}]
-        self.assertEqual(scout.estimate_quota(c, ["MX", "ES"]), (2 * 100 + 4) * 2)
+        jobs = [{"queries": ["x", "y"]}, {"queries": ["z"]}]
+        self.assertEqual(scout.estimate_quota(jobs), 204 + 104)
 
 
 if __name__ == "__main__":
