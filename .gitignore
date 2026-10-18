@@ -2,4 +2,8 @@
 .cache/
 __pycache__/
 channels/*/launch/art/_preview*
+channels/*/videos/*/audio/*.mp3
+channels/*/videos/*/render/*.mp4
+channels/*/videos/*/render/*.png
+node_modules/
 out/

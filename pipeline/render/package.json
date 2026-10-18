@@ -1,0 +1,20 @@
+{
+  "name": "yt-render",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Remotion ile sahne planından (scenes.json) video render",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "node scripts/render.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/renderer": "4.0.536",
+    "@types/react": "19.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.536",
+    "typescript": "7.0.2"
+  }
+}
