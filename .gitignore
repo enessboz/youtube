@@ -7,5 +7,11 @@ channels/*/videos/*/render/*.mp4
 channels/*/videos/*/render/*.png
 node_modules/
 out/
+.env
+.env.*
 channels/*/videos/*/assets/footage/*.mp4
 channels/*/videos/*/assets/footage-r/
+channels/*/videos/*/assets/footage/*.jpg
+channels/*/videos/*/render/native/
+channels/*/videos/*/render/review-pass*
+*.mp4

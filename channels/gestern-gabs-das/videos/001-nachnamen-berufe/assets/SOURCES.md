@@ -46,3 +46,7 @@ Dosyalar kullanıcı tarafından Commons'tan indirildi (bulut ortamının IP'si 
 | pexels-7666907.mp4 | https://www.pexels.com/video/a-man-throwing-fish-net-on-the-pond-7666907/ | Latif Ahmed | Pexels License | indirildi 2026-10-18; yer/ülke iddiası yok |
 | pexels-8190714.mp4 | https://www.pexels.com/video/a-baker-kneading-the-dough-8190714/ | ROMAN ODINTSOV | Pexels License | indirildi 2026-10-18; yer/ülke iddiası yok |
 | pexels-8779872.mp4 | https://www.pexels.com/video/a-seamstress-making-a-pattern-on-cloth-8779872/ | Gustavo Fring | Pexels License | indirildi 2026-10-18; yer/ülke iddiası yok |
+
+## Codex stock preview kaynakları
+Ayrı 4:36 kesitte seçilen 17 Pexels klibi ve 3 kamu malı gravür için SOURCES-stock-preview.md dosyasına bakın. Gerçekte indirilen dosyaların metadata kopyaları footage/stock-preview-metadata/ içinde korunur.
+

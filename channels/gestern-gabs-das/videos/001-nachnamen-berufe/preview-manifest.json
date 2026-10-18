@@ -1,0 +1,33 @@
+{
+  "duration_s": 276.1666666666667,
+  "shots": 63,
+  "unique_clips": 17,
+  "motion_footage_share": 1,
+  "silent": true,
+  "clip_uses": {
+    "pexels-35794910.mp4": 10,
+    "pexels-855416.mp4": 8,
+    "pexels-19740011.mp4": 6,
+    "pexels-31638148.mp4": 6,
+    "pexels-4621701.mp4": 5,
+    "pexels-4440938.mp4": 4,
+    "pexels-27987395.mp4": 2,
+    "pexels-5846397.mp4": 3,
+    "pexels-5846389.mp4": 3,
+    "pexels-4186969.mp4": 3,
+    "pexels-38104095.mp4": 3,
+    "pexels-6765465.mp4": 2,
+    "pexels-6459918.mp4": 2,
+    "pexels-6460113.mp4": 1,
+    "pexels-5537827.mp4": 2,
+    "pexels-2652362.mp4": 2,
+    "pexels-10496570.mp4": 1
+  },
+  "reused_windows": 28,
+  "captions": "max 2 lines × 52 characters; 47px at1080p",
+  "limitations": [
+    "Estimated narration timing; no audio yet.",
+    "Some source windows recur; review rhythm before extending to25minutes.",
+    "Current stock illustrates craft; it is not historical German location evidence."
+  ]
+}

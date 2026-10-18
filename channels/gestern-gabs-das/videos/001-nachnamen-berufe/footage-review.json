@@ -1,0 +1,565 @@
+{
+  "clips": [
+    {
+      "filename": "pexels-35794910.mp4",
+      "section": "mueller",
+      "accepted": true,
+      "visual_details": "Working flour mill machinery with sacks, buckets and operator cropped at torso; contemporary illustrative craft.",
+      "duration": 25,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ],
+        [
+          15.5,
+          20.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/rural-mill-worker-processing-grains-indoors-35794910/",
+      "author": "Zomlien Neihsiel",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-35794910-contact.jpg"
+    },
+    {
+      "filename": "pexels-19675231.mp4",
+      "section": "mueller",
+      "accepted": false,
+      "visual_details": "Modern industrial grain plant aerial; rejected for weak period/craft match.",
+      "duration": 19,
+      "usable_trim_windows_s": [],
+      "source_url": "https://www.pexels.com/video/drone-shot-of-grain-elevator-19675231/",
+      "author": "Eric Skaggs",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual video frames at four timestamps inspected in contact sheet; no obvious synthetic artifacts found. Full playback QA remains with final render.",
+      "contact_sheet": "pexels-19675231-contact.jpg"
+    },
+    {
+      "filename": "pexels-19675240.mp4",
+      "section": "mueller",
+      "accepted": false,
+      "visual_details": "Second modern industrial grain plant aerial; repetitive and weak craft match.",
+      "duration": 19,
+      "usable_trim_windows_s": [],
+      "source_url": "https://www.pexels.com/video/overhead-shot-of-grain-silo-19675240/",
+      "author": "Eric Skaggs",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual video frames at four timestamps inspected in contact sheet; no obvious synthetic artifacts found. Full playback QA remains with final render.",
+      "contact_sheet": "pexels-19675240-contact.jpg"
+    },
+    {
+      "filename": "pexels-855416.mp4",
+      "section": "mueller",
+      "accepted": true,
+      "visual_details": "Close view of wooden waterwheel moving against brick wall. First source frame is black; do not start before1s.",
+      "duration": 14,
+      "usable_trim_windows_s": [
+        [
+          1,
+          6
+        ],
+        [
+          6,
+          11
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/watermill-rotating-855416/",
+      "author": "Pixabay",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-855416-contact.jpg"
+    },
+    {
+      "filename": "pexels-19740011.mp4",
+      "section": "mueller",
+      "accepted": true,
+      "visual_details": "Wooden mill wheel beside stone mill building and flowing water.",
+      "duration": 15,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/french-valley-19740011/",
+      "author": "Tamer Selim",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-19740011-contact.jpg"
+    },
+    {
+      "filename": "pexels-13125056.mp4",
+      "section": "mueller",
+      "accepted": false,
+      "visual_details": "Modern combine harvester aerial; rejected for weak traditional craft match.",
+      "duration": 20,
+      "usable_trim_windows_s": [],
+      "source_url": "https://www.pexels.com/video/harvester-on-field-13125056/",
+      "author": "Jozef Papp",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual video frames at four timestamps inspected in contact sheet; no obvious synthetic artifacts found. Full playback QA remains with final render.",
+      "contact_sheet": "pexels-13125056-contact.jpg"
+    },
+    {
+      "filename": "pexels-31638148.mp4",
+      "section": "schmidt",
+      "accepted": true,
+      "visual_details": "Tight hands, hammer, hot metal and anvil; no identifiable face.",
+      "duration": 8,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/blacksmith-hammering-metal-in-workshop-31638148/",
+      "author": "mg shotz",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-31638148-contact.jpg"
+    },
+    {
+      "filename": "pexels-5846397.mp4",
+      "section": "schmidt",
+      "accepted": true,
+      "visual_details": "Dark smithy tool rack, tongs and hammers; atmospheric detail.",
+      "duration": 10,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/hammer-rack-in-smithy-workshop-5846397/",
+      "author": "Tima Miroshnichenko",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-5846397-contact.jpg"
+    },
+    {
+      "filename": "pexels-5846389.mp4",
+      "section": "schmidt",
+      "accepted": true,
+      "visual_details": "Gloved smith shapes glowing metal on anvil with furnace fire behind.",
+      "duration": 22,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ],
+        [
+          15.5,
+          20.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/person-forging-metal-5846389/",
+      "author": "Tima Miroshnichenko",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-5846389-contact.jpg"
+    },
+    {
+      "filename": "pexels-4186969.mp4",
+      "section": "schmidt",
+      "accepted": true,
+      "visual_details": "Hammer strikes glowing iron on worn anvil; tight hands-only detail.",
+      "duration": 8,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/a-person-hammering-a-heated-metal-4186969/",
+      "author": "CESAR CASANOVA",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-4186969-contact.jpg"
+    },
+    {
+      "filename": "pexels-38104095.mp4",
+      "section": "schmidt",
+      "accepted": true,
+      "visual_details": "Outdoor historical craft demonstration with furnace, tools and people cropped around waist; use short insert only.",
+      "duration": 44,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ],
+        [
+          15.5,
+          20.5
+        ],
+        [
+          20.5,
+          25.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/historical-blacksmith-forging-iron-outdoors-38104095/",
+      "author": "SHOX ART",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-38104095-contact.jpg"
+    },
+    {
+      "filename": "pexels-4621701.mp4",
+      "section": "schneider",
+      "accepted": true,
+      "visual_details": "Tailor hands cut pale cloth at work table; torso crop.",
+      "duration": 16,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/a-woman-cutting-a-piece-of-fabric-with-scissors-4621701/",
+      "author": "cottonbro studio",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-4621701-contact.jpg"
+    },
+    {
+      "filename": "pexels-6765465.mp4",
+      "section": "schneider",
+      "accepted": true,
+      "visual_details": "Tailor hands cut dark marked cloth; wristwatch visible but no prominent branding.",
+      "duration": 29,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ],
+        [
+          15.5,
+          20.5
+        ],
+        [
+          20.5,
+          25.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/a-person-cutting-a-fabric-6765465/",
+      "author": "Tima Miroshnichenko",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-6765465-contact.jpg"
+    },
+    {
+      "filename": "pexels-6459918.mp4",
+      "section": "schneider",
+      "accepted": true,
+      "visual_details": "Close fabric cutting with scissors and measuring tape; torso and hands.",
+      "duration": 12,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/tailor-cutting-black-fabric-6459918/",
+      "author": "Pavel Danilyuk",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-6459918-contact.jpg"
+    },
+    {
+      "filename": "pexels-6459913.mp4",
+      "section": "schneider",
+      "accepted": true,
+      "visual_details": "Modern sewing machine profile; may show small manufacturer wordmark: use cropped sewing-needle detail only.",
+      "duration": 12,
+      "usable_trim_windows_s": [
+        [
+          1,
+          6
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/close-up-in-sewing-machines-6459913/",
+      "author": "Pavel Danilyuk",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual video frames at four timestamps inspected in contact sheet; no obvious synthetic artifacts found. Full playback QA remains with final render.",
+      "contact_sheet": "pexels-6459913-contact.jpg"
+    },
+    {
+      "filename": "pexels-6460113.mp4",
+      "section": "schneider",
+      "accepted": true,
+      "visual_details": "Hands guide fabric under sewing machine needle, shallow depth of field.",
+      "duration": 11,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/woman-sewing-cloth-with-machine-6460113/",
+      "author": "Pavel Danilyuk",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-6460113-contact.jpg"
+    },
+    {
+      "filename": "pexels-4440938.mp4",
+      "section": "fischer",
+      "accepted": true,
+      "visual_details": "Backlit fishing-net silhouette at shore; abstract net and distant workers, no usable location claim.",
+      "duration": 17,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/a-group-of-people-standing-on-the-beach-with-a-net-4440938/",
+      "author": "cottonbro studio",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-4440938-contact.jpg"
+    },
+    {
+      "filename": "pexels-4440945.mp4",
+      "section": "fischer",
+      "accepted": true,
+      "visual_details": "Silhouetted workers handling fishing net on shore; avoid prominent red flag in chosen crop.",
+      "duration": 22,
+      "usable_trim_windows_s": [
+        [
+          1,
+          6
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/a-group-of-people-standing-on-the-beach-with-a-fishing-net-4440945/",
+      "author": "cottonbro studio",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual video frames at four timestamps inspected in contact sheet; no obvious synthetic artifacts found. Full playback QA remains with final render.",
+      "contact_sheet": "pexels-4440945-contact.jpg"
+    },
+    {
+      "filename": "pexels-2652362.mp4",
+      "section": "fischer",
+      "accepted": true,
+      "visual_details": "Single fisher in small green craft on calm water, long shot.",
+      "duration": 16,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/small-fishing-boat-on-calm-waters-2652362/",
+      "author": "Nino Souza",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-2652362-contact.jpg"
+    },
+    {
+      "filename": "pexels-10496570.mp4",
+      "section": "fischer",
+      "accepted": true,
+      "visual_details": "Aerial fishing boats and circular green net on turquoise water; geographically generic illustration.",
+      "duration": 28,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ],
+        [
+          15.5,
+          20.5
+        ],
+        [
+          20.5,
+          25.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/aerial-view-on-trawler-on-sea-10496570/",
+      "author": "Pok Rie",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-10496570-contact.jpg"
+    },
+    {
+      "filename": "pexels-4788511.mp4",
+      "section": "fischer",
+      "accepted": false,
+      "visual_details": "Source contains hard internal cut from boats to tropical reef; reject as unrelated to surname craft.",
+      "duration": 19,
+      "usable_trim_windows_s": [],
+      "source_url": "https://www.pexels.com/video/underwater-photography-of-marine-life-4788511/",
+      "author": "Humayun Kabir",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual video frames at four timestamps inspected in contact sheet; no obvious synthetic artifacts found. Full playback QA remains with final render.",
+      "contact_sheet": "pexels-4788511-contact.jpg"
+    },
+    {
+      "filename": "pexels-27987395.mp4",
+      "section": "hook",
+      "accepted": true,
+      "visual_details": "Walking shot through quiet stone and half-timber village alley; generic location only.",
+      "duration": 28,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ],
+        [
+          10.5,
+          15.5
+        ],
+        [
+          15.5,
+          20.5
+        ],
+        [
+          20.5,
+          25.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/malatya-arapgir-koru-koyu-evleri-27987395/",
+      "author": "Serkan  Gönültaş",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual frames sampled every 3 seconds across approved interval, plus original four-frame contact sheet. Full render playback QA still required.",
+      "contact_sheet": "pexels-27987395-contact.jpg"
+    },
+    {
+      "filename": "pexels-34038695.mp4",
+      "section": "hook",
+      "accepted": false,
+      "visual_details": "Contemporary street with overhead wires and satellite dish; reject for visual mismatch.",
+      "duration": 17,
+      "usable_trim_windows_s": [],
+      "source_url": "https://www.pexels.com/video/charming-village-street-scene-in-summer-34038695/",
+      "author": "Özgür Sürmeli",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Actual video frames at four timestamps inspected in contact sheet; no obvious synthetic artifacts found. Full playback QA remains with final render.",
+      "contact_sheet": "pexels-34038695-contact.jpg"
+    },
+    {
+      "filename": "pexels-5537827.mp4",
+      "section": "barrels",
+      "accepted": true,
+      "visual_details": "Close hands touching and handling wooden wine barrels; warm cellar light, no face or readable logo; suitable illustrative barrel craft insert.",
+      "duration": 13,
+      "usable_trim_windows_s": [
+        [
+          0.5,
+          5.5
+        ],
+        [
+          5.5,
+          10.5
+        ]
+      ],
+      "source_url": "https://www.pexels.com/video/a-person-touching-wood-barrels-inside-a-winery-5537827/",
+      "author": "cottonbro studio",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Four actual video frames across source inspected;5537827 coherent single shot,857092 mixed internal cuts rejected.",
+      "contact_sheet": "pexels-5537827-contact.jpg"
+    },
+    {
+      "filename": "pexels-857092.mp4",
+      "section": "barrels",
+      "accepted": false,
+      "visual_details": "Internal-cut winery promotional montage with vineyard visitors and child in cellar; rejected as unsuitable focused craft illustration.",
+      "duration": 33,
+      "usable_trim_windows_s": [],
+      "source_url": "https://www.pexels.com/video/vineyard-production-857092/",
+      "author": "Vimeo",
+      "license": "Pexels License (https://www.pexels.com/license/)",
+      "review_method": "Four actual video frames across source inspected;5537827 coherent single shot,857092 mixed internal cuts rejected.",
+      "contact_sheet": "pexels-857092-contact.jpg"
+    }
+  ],
+  "summary": {
+    "downloaded": 25,
+    "accepted": 19,
+    "no_historical_or_location_claim": true
+  }
+}
